@@ -1,6 +1,6 @@
 import{useCallback,useEffect,useRef,useState}from'react';
 import{Expand,Minimize,Heart,Sparkles}from'lucide-react';
-import{AUTO_SPIN_SECONDS,MAX_SPEED,RAMP_SECONDS,ease,forcedPlan,indexAt,PLAYER_COLORS,targetAngle}from'./engine';
+import{AUTO_SPIN_SECONDS,MAX_SPEED,RAMP_SECONDS,ease,forcedPlan,indexAt,normalize,PLAYER_COLORS,targetAngle}from'./engine';
 import{CONTENT_VERSION,labels,promptBank}from'./data/prompts';
 import type{Kind,Level,Prompt}from'./types';
 
@@ -17,11 +17,10 @@ function loadGame(){
  }catch{sessionStorage.removeItem('tod-game');return{game:fresh,migrated:true}}
 }
 
-function Wheel({count,angle,labels:items,colors}:{count:number;angle:number;labels:string[];colors:string[]}){
- const size=500,c=size/2,r=238,inner=r*.42,outer=r*.94;
+export function Wheel({count,angle,labels:items,colors}:{count:number;angle:number;labels:string[];colors:string[]}){
+ const size=500,c=size/2,r=238,inner=r*.48,outer=r*.9;
  return <svg className="wheel" viewBox={`0 0 ${size} ${size}`} aria-label={`${count}格转盘`}>
-  <defs>{Array.from({length:count},(_,i)=>{const w=360/count,a0=(i*w-w/2-90)*Math.PI/180,a1=(i*w+w/2-90)*Math.PI/180;return <clipPath id={`sector-${count}-${i}`} key={i}><path d={`M${c},${c} L${c+r*Math.cos(a0)},${c+r*Math.sin(a0)} A${r},${r} 0 ${w>180?1:0} 1 ${c+r*Math.cos(a1)},${c+r*Math.sin(a1)} Z`}/></clipPath>})}</defs>
-  <g>{Array.from({length:count},(_,i)=>{const w=360/count,a0=(i*w-w/2-90)*Math.PI/180,a1=(i*w+w/2-90)*Math.PI/180;const path=`M${c},${c} L${c+r*Math.cos(a0)},${c+r*Math.sin(a0)} A${r},${r} 0 ${w>180?1:0} 1 ${c+r*Math.cos(a1)},${c+r*Math.sin(a1)} Z`;const mid=(i*w-90)*Math.PI/180;const isPlayer=count<=20;const font=isPlayer?Math.max(18,42-count):Math.max(2.2,Math.min(5.2,2*Math.PI*outer/count*.48));return <g key={i}><path d={path} fill={colors[i%colors.length]} stroke="#fff" strokeWidth={isPlayer?2:.45}/>{isPlayer?<text x={c+r*.72*Math.cos(mid)} y={c+r*.72*Math.sin(mid)} textAnchor="middle" dominantBaseline="middle" fill="#fff" fontWeight="900" fontSize={font} transform={`rotate(${i*w},${c+r*.72*Math.cos(mid)},${c+r*.72*Math.sin(mid)})`}>{items[i]}</text>:<text className="prompt-label" x={c+inner} y={c} dominantBaseline="middle" fontSize={font} textLength={outer-inner} lengthAdjust="spacingAndGlyphs" clipPath={`url(#sector-${count}-${i})`} transform={`rotate(${i*w-90} ${c} ${c})`}>{items[i]}</text>}</g>})}</g>
+  <g>{Array.from({length:count},(_,i)=>{const w=360/count,a0=(i*w-w/2-90)*Math.PI/180,a1=(i*w+w/2-90)*Math.PI/180;const path=`M${c},${c} L${c+r*Math.cos(a0)},${c+r*Math.sin(a0)} A${r},${r} 0 ${w>180?1:0} 1 ${c+r*Math.cos(a1)},${c+r*Math.sin(a1)} Z`;const mid=(i*w-90)*Math.PI/180;const isPlayer=count<=20;const font=isPlayer?Math.max(18,42-count):Math.max(2.2,Math.min(5.2,2*Math.PI*outer/count*.48));return <g key={i}><path d={path} fill={colors[i%colors.length]} stroke="#fff" strokeWidth={isPlayer?2:.45}/>{isPlayer?<text x={c+r*.72*Math.cos(mid)} y={c+r*.72*Math.sin(mid)} textAnchor="middle" dominantBaseline="middle" fill="#fff" fontWeight="900" fontSize={font} transform={`rotate(${i*w},${c+r*.72*Math.cos(mid)},${c+r*.72*Math.sin(mid)})`}>{items[i]}</text>:<svg className="prompt-label-svg" x="0" y="0" width={size} height={size} viewBox={`0 0 ${size} ${size}`} overflow="visible" data-prompt-angle={normalize(i*w-90)} aria-hidden="true"><g transform={`translate(${c} ${c}) rotate(${normalize(i*w-90)})`}><text className="prompt-label" x={inner} y="0" dominantBaseline="middle" fontSize={font} textLength={outer-inner} lengthAdjust="spacingAndGlyphs">{items[i]}</text></g></svg>}</g>})}</g>
   <g className="pointer" transform={`rotate(${angle} ${c} ${c})`}><line x1={c} y1={c} x2={c} y2="25"/><path d="M250 12l-7 24h14z"/></g><circle cx={c} cy={c} r="22" fill="#fff" stroke="#202334" strokeWidth="7"/>
  </svg>
 }
