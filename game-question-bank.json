@@ -1,0 +1,7154 @@
+{
+  "schemaVersion": 2,
+  "title": "真心话大冒险题库整理稿",
+  "status": "complete_not_deployed",
+  "updatedDate": "2026-09-17",
+  "levels": [
+    {
+      "id": "innocent",
+      "label": "休闲档",
+      "previousLabel": "纯情档",
+      "description": "适合初识朋友、同事团建、普通同学局，轻松无压力全程不尴尬"
+    },
+    {
+      "id": "flirty",
+      "label": "暧昧档",
+      "previousLabel": "暧昧档",
+      "description": "适合暧昧对象、单身派对、好友局，带试探感轻度亲密不越界"
+    },
+    {
+      "id": "extreme",
+      "label": "刺激档",
+      "previousLabel": "猎奇档"
+    }
+  ],
+  "notes": [
+    "本文件仅整理用户提供的文字与图片，不代表已修改网站。",
+    "休闲档、暧昧档各保留用户原文真心话100道、大冒险100道。题目中原有措辞与同档相近题不自行改写。",
+    "刺激档仅对本次图片内重复或明显同义的题目去重。跨档相似题保留，以免改变另外两档各100题的要求。",
+    "只整理用户已提供内容，不新增题目或补足100题。图片标题、广告、水印、分类小标题不作为题目。",
+    "图片编号17跨IMG_2820.png及IMG_2822.png，已按可见原文拼接。",
+    "IMG_2826.jpeg与IMG_2831.jpeg的13、14、15题完全重叠，合并来源后各保留一条。",
+    "IMG_2826.jpeg标题写26个，但该图仅含1至15题；16至26题来自IMG_2831.jpeg。前五张图标题提及100个，但实际可见真心话为1至50题，未虚构其余题目。",
+    "刺激档题数使用实际长度。扇形数量、每格角度360/N、标签、随机抽取、落点判定、一次重抽排除原题均需随N变化，不能写死100或3.6度。",
+    "标签更名应覆盖选档页、游戏标题及帮助说明；本文件使用innocent/flirty/extreme作内部标识，导入时适配现有项目类型，不因显示名改变而误清空游戏状态。",
+    "以本文件groups[].questions全量替换最初生成的旧题库，不混入旧题，不自动生成或补足100道；不要求改写Git历史。",
+    "刺激档大冒险原图109道，去重2道，因伤害风险或未经同意的性接触要求排除5道，保留102道。排除项仅记录来源及原因，不进入抽取列表。",
+    "全库635道。照片、通讯录、发送消息等仅作为游戏文字，不授权应用读取、发送、删除或发布。",
+    "互动须经对方同意，可以拒绝或停止；一次重抽限制不代表必须实施动作。"
+  ],
+  "reviewNotes": [
+    {
+      "source": {
+        "files": [
+          "IMG_2829.jpeg"
+        ],
+        "number": 7
+      },
+      "note": "该题按图片转录为“偷偷拨掉体重秤假装体重没变？”，原图措辞不自然，暂保留，后续可由用户确认是否存在错字。"
+    },
+    {
+      "source": {
+        "kind": "user_text",
+        "level": "flirty",
+        "type": "truth",
+        "number": 11
+      },
+      "note": "“姐弟恋/兄妹恋”保留原文；如本意仅指双方无亲属关系的年龄差恋爱，后续可由用户更正措辞。"
+    },
+    {
+      "source": {
+        "files": [
+          "IMG_2831.jpeg"
+        ],
+        "number": 26
+      },
+      "note": "此题属于行动式表述，但按用户指定图片所属类别保留在刺激档真心话，不擅自移动。"
+    },
+    {
+      "source": {
+        "files": [
+          "IMG_2834.jpeg"
+        ],
+        "number": 28
+      },
+      "note": "原图“给除场外”措辞不自然，保留原文，没有猜测改写。"
+    },
+    {
+      "source": {
+        "files": [
+          "IMG_2834.jpeg"
+        ],
+        "number": 36
+      },
+      "note": "原图“一分钟我介绍”疑似漏“自”字，保留原文。"
+    }
+  ],
+  "deduplication": {
+    "truth": {
+      "scope": "extreme.truth_only",
+      "rawImageOccurrences": 139,
+      "overlapRemovedCount": 3,
+      "semanticRemovedCount": 3,
+      "retainedCount": 133,
+      "overlaps": [
+        {
+          "number": 13,
+          "keptFile": "IMG_2826.jpeg",
+          "duplicateFile": "IMG_2831.jpeg",
+          "text": "如果我突然说“我们以后只跟对方喝酒”，你会立刻答应吗？"
+        },
+        {
+          "number": 14,
+          "keptFile": "IMG_2826.jpeg",
+          "duplicateFile": "IMG_2831.jpeg",
+          "text": "说一个你从未告诉别人的小癖好。"
+        },
+        {
+          "number": 15,
+          "keptFile": "IMG_2826.jpeg",
+          "duplicateFile": "IMG_2831.jpeg",
+          "text": "如果下次喝酒我问“要不要谈恋爱”，你会怎么回答？"
+        }
+      ],
+      "semanticDuplicates": [
+        {
+          "removed": {
+            "text": "对朋友的对象产生过好感？",
+            "source": {
+              "files": [
+                "IMG_2827.jpeg"
+              ],
+              "number": 3
+            }
+          },
+          "keptSource": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 32
+          },
+          "reason": "同义重复：对朋友的伴侣产生好感。"
+        },
+        {
+          "removed": {
+            "text": "因为孤单随便开启一段恋爱？",
+            "source": {
+              "files": [
+                "IMG_2827.jpeg"
+              ],
+              "number": 6
+            }
+          },
+          "keptSource": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 41
+          },
+          "reason": "同义重复：因为孤独而开启恋爱。"
+        },
+        {
+          "removed": {
+            "text": "偷偷翻过身边人的手机？",
+            "source": {
+              "files": [
+                "IMG_2828.jpeg"
+              ],
+              "number": 8
+            }
+          },
+          "keptSource": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 29
+          },
+          "reason": "同义重复：偷看别人的手机。"
+        }
+      ]
+    },
+    "dare": {
+      "scope": "extreme.dare_only",
+      "rawImageOccurrences": 109,
+      "duplicateRemovedCount": 2,
+      "safetyExcludedCount": 5,
+      "retainedCount": 102,
+      "semanticDuplicates": [
+        {
+          "keptSource": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 13
+          },
+          "reason": "同义重复：打电话向前任表示忘不了对方；保留带免提要求的版本。",
+          "removed": {
+            "source": {
+              "files": [
+                "IMG_2835.jpeg"
+              ],
+              "number": 46
+            },
+            "text": "给前任打电话说，“我还是忘不了你。”"
+          }
+        },
+        {
+          "keptSource": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 71
+          },
+          "reason": "近义重复：吃下每个人夹的菜；保留不附加饮酒要求的版本。",
+          "removed": {
+            "source": {
+              "files": [
+                "IMG_2837.jpeg"
+              ],
+              "number": 78
+            },
+            "text": "吃完每个人给你夹的菜或倒给你的酒"
+          }
+        }
+      ]
+    }
+  },
+  "summary": {
+    "innocent": {
+      "truth": 100,
+      "dare": 100
+    },
+    "flirty": {
+      "truth": 100,
+      "dare": 100
+    },
+    "extreme": {
+      "truth": 133,
+      "dare": 102
+    },
+    "totalReadyQuestions": 635
+  },
+  "groups": [
+    {
+      "level": "innocent",
+      "type": "truth",
+      "status": "ready",
+      "count": 100,
+      "questions": [
+        {
+          "id": "innocent-truth-001",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次让你笑到肚子疼的事是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 1
+          }
+        },
+        {
+          "id": "innocent-truth-002",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你手机里最舍不得删的一张照片背后有什么故事？",
+          "source": {
+            "kind": "user_text",
+            "number": 2
+          }
+        },
+        {
+          "id": "innocent-truth-003",
+          "level": "innocent",
+          "type": "truth",
+          "text": "小时候做过最傻的一件事是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 3
+          }
+        },
+        {
+          "id": "innocent-truth-004",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你目前工作/学习里最头疼的部分是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 4
+          }
+        },
+        {
+          "id": "innocent-truth-005",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最擅长的一项生活技能是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 5
+          }
+        },
+        {
+          "id": "innocent-truth-006",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一个月吃过最好吃的一顿饭是和谁一起？",
+          "source": {
+            "kind": "user_text",
+            "number": 6
+          }
+        },
+        {
+          "id": "innocent-truth-007",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有什么很冷门的兴趣爱好？",
+          "source": {
+            "kind": "user_text",
+            "number": 7
+          }
+        },
+        {
+          "id": "innocent-truth-008",
+          "level": "innocent",
+          "type": "truth",
+          "text": "上学时最喜欢和最讨厌的科目分别是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 8
+          }
+        },
+        {
+          "id": "innocent-truth-009",
+          "level": "innocent",
+          "type": "truth",
+          "text": "熬夜最久的一次是为了做什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 9
+          }
+        },
+        {
+          "id": "innocent-truth-010",
+          "level": "innocent",
+          "type": "truth",
+          "text": "如果只能养一只宠物，你最想养什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 10
+          }
+        },
+        {
+          "id": "innocent-truth-011",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最想去的一个城市是哪里？",
+          "source": {
+            "kind": "user_text",
+            "number": 11
+          }
+        },
+        {
+          "id": "innocent-truth-012",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次哭是因为什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 12
+          }
+        },
+        {
+          "id": "innocent-truth-013",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的一部电影是什么，为什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 13
+          }
+        },
+        {
+          "id": "innocent-truth-014",
+          "level": "innocent",
+          "type": "truth",
+          "text": "从小到大你最崇拜的人是谁？",
+          "source": {
+            "kind": "user_text",
+            "number": 14
+          }
+        },
+        {
+          "id": "innocent-truth-015",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有什么不吃的食物，为什么不吃？",
+          "source": {
+            "kind": "user_text",
+            "number": 15
+          }
+        },
+        {
+          "id": "innocent-truth-016",
+          "level": "innocent",
+          "type": "truth",
+          "text": "第一次自己出门旅行是几岁？",
+          "source": {
+            "kind": "user_text",
+            "number": 16
+          }
+        },
+        {
+          "id": "innocent-truth-017",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得自己身上最大的优点是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 17
+          }
+        },
+        {
+          "id": "innocent-truth-018",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近在追什么剧或者综艺？",
+          "source": {
+            "kind": "user_text",
+            "number": 18
+          }
+        },
+        {
+          "id": "innocent-truth-019",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你手机里用得最久的一个APP是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 19
+          }
+        },
+        {
+          "id": "innocent-truth-020",
+          "level": "innocent",
+          "type": "truth",
+          "text": "小时候的梦想是什么，现在实现了吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 20
+          }
+        },
+        {
+          "id": "innocent-truth-021",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最讨厌什么样的人？",
+          "source": {
+            "kind": "user_text",
+            "number": 21
+          }
+        },
+        {
+          "id": "innocent-truth-022",
+          "level": "innocent",
+          "type": "truth",
+          "text": "周末休息的时候你一般都在做什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 22
+          }
+        },
+        {
+          "id": "innocent-truth-023",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你会做饭吗，最拿手的一道菜是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 23
+          }
+        },
+        {
+          "id": "innocent-truth-024",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近买过最满意的一件东西是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 24
+          }
+        },
+        {
+          "id": "innocent-truth-025",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你听过最离谱的八卦是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 25
+          }
+        },
+        {
+          "id": "innocent-truth-026",
+          "level": "innocent",
+          "type": "truth",
+          "text": "上学的时候你当过班干部吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 26
+          }
+        },
+        {
+          "id": "innocent-truth-027",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有什么特殊的睡觉习惯？",
+          "source": {
+            "kind": "user_text",
+            "number": 27
+          }
+        },
+        {
+          "id": "innocent-truth-028",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的季节是什么，为什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 28
+          }
+        },
+        {
+          "id": "innocent-truth-029",
+          "level": "innocent",
+          "type": "truth",
+          "text": "第一次打工/实习是做什么工作？",
+          "source": {
+            "kind": "user_text",
+            "number": 29
+          }
+        },
+        {
+          "id": "innocent-truth-030",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得自己是社恐还是社牛？",
+          "source": {
+            "kind": "user_text",
+            "number": 30
+          }
+        },
+        {
+          "id": "innocent-truth-031",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢吃的零食是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 31
+          }
+        },
+        {
+          "id": "innocent-truth-032",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次让你觉得很治愈的瞬间是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 32
+          }
+        },
+        {
+          "id": "innocent-truth-033",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你玩过最上瘾的一款游戏是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 33
+          }
+        },
+        {
+          "id": "innocent-truth-034",
+          "level": "innocent",
+          "type": "truth",
+          "text": "从小到大你改过名字吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 34
+          }
+        },
+        {
+          "id": "innocent-truth-035",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最害怕的东西是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 35
+          }
+        },
+        {
+          "id": "innocent-truth-036",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你收到过最喜欢的礼物是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 36
+          }
+        },
+        {
+          "id": "innocent-truth-037",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有过认错人的尴尬经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 37
+          }
+        },
+        {
+          "id": "innocent-truth-038",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的一首歌是什么，循环过多少遍？",
+          "source": {
+            "kind": "user_text",
+            "number": 38
+          }
+        },
+        {
+          "id": "innocent-truth-039",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得自己的脾气好吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 39
+          }
+        },
+        {
+          "id": "innocent-truth-040",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次运动是在什么时候，做了什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 40
+          }
+        },
+        {
+          "id": "innocent-truth-041",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你小时候最喜欢看的动画片是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 41
+          }
+        },
+        {
+          "id": "innocent-truth-042",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有纹身或者打耳洞吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 42
+          }
+        },
+        {
+          "id": "innocent-truth-043",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最想学会的一项技能是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 43
+          }
+        },
+        {
+          "id": "innocent-truth-044",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得网恋靠谱吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 44
+          }
+        },
+        {
+          "id": "innocent-truth-045",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次去电影院看的是什么电影？",
+          "source": {
+            "kind": "user_text",
+            "number": 45
+          }
+        },
+        {
+          "id": "innocent-truth-046",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有拖延症吗，最严重的一次是什么样？",
+          "source": {
+            "kind": "user_text",
+            "number": 46
+          }
+        },
+        {
+          "id": "innocent-truth-047",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的美食菜系是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 47
+          }
+        },
+        {
+          "id": "innocent-truth-048",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你做过最勇敢的一件事是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 48
+          }
+        },
+        {
+          "id": "innocent-truth-049",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你手机相册里最多的照片是什么类型？",
+          "source": {
+            "kind": "user_text",
+            "number": 49
+          }
+        },
+        {
+          "id": "innocent-truth-050",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有和朋友闹掰过，后来和好了吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 50
+          }
+        },
+        {
+          "id": "innocent-truth-051",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你每天早上几点起床？",
+          "source": {
+            "kind": "user_text",
+            "number": 51
+          }
+        },
+        {
+          "id": "innocent-truth-052",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最不能接受另一半的什么缺点？",
+          "source": {
+            "kind": "user_text",
+            "number": 52
+          }
+        },
+        {
+          "id": "innocent-truth-053",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你去过最远的地方是哪里？",
+          "source": {
+            "kind": "user_text",
+            "number": 53
+          }
+        },
+        {
+          "id": "innocent-truth-054",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有什么很容易被种草的东西？",
+          "source": {
+            "kind": "user_text",
+            "number": 54
+          }
+        },
+        {
+          "id": "innocent-truth-055",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你小时候有没有被家长打过？",
+          "source": {
+            "kind": "user_text",
+            "number": 55
+          }
+        },
+        {
+          "id": "innocent-truth-056",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的明星是谁？",
+          "source": {
+            "kind": "user_text",
+            "number": 56
+          }
+        },
+        {
+          "id": "innocent-truth-057",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次觉得自己很没用是什么时候？",
+          "source": {
+            "kind": "user_text",
+            "number": 57
+          }
+        },
+        {
+          "id": "innocent-truth-058",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你喝奶茶一般点什么口味？",
+          "source": {
+            "kind": "user_text",
+            "number": 58
+          }
+        },
+        {
+          "id": "innocent-truth-059",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有过丢东西的经历，丢过最贵重的是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 59
+          }
+        },
+        {
+          "id": "innocent-truth-060",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得友情和爱情哪个更重要？",
+          "source": {
+            "kind": "user_text",
+            "number": 60
+          }
+        },
+        {
+          "id": "innocent-truth-061",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你会说几种方言？",
+          "source": {
+            "kind": "user_text",
+            "number": 61
+          }
+        },
+        {
+          "id": "innocent-truth-062",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最难忘的一次生日是怎么过的？",
+          "source": {
+            "kind": "user_text",
+            "number": 62
+          }
+        },
+        {
+          "id": "innocent-truth-063",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有暗恋过老师或者学长学姐？",
+          "source": {
+            "kind": "user_text",
+            "number": 63
+          }
+        },
+        {
+          "id": "innocent-truth-064",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你平时喜欢刷什么类型的短视频？",
+          "source": {
+            "kind": "user_text",
+            "number": 64
+          }
+        },
+        {
+          "id": "innocent-truth-065",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你第一次喝酒是在什么时候？",
+          "source": {
+            "kind": "user_text",
+            "number": 65
+          }
+        },
+        {
+          "id": "innocent-truth-066",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得自己长得好看吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 66
+          }
+        },
+        {
+          "id": "innocent-truth-067",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最想回到哪个年纪？",
+          "source": {
+            "kind": "user_text",
+            "number": 67
+          }
+        },
+        {
+          "id": "innocent-truth-068",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有什么坚持了很久的习惯？",
+          "source": {
+            "kind": "user_text",
+            "number": 68
+          }
+        },
+        {
+          "id": "innocent-truth-069",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次生气是因为什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 69
+          }
+        },
+        {
+          "id": "innocent-truth-070",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的运动是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 70
+          }
+        },
+        {
+          "id": "innocent-truth-071",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有过网恋的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 71
+          }
+        },
+        {
+          "id": "innocent-truth-072",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你家里养过宠物吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 72
+          }
+        },
+        {
+          "id": "innocent-truth-073",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最讨厌的家务是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 73
+          }
+        },
+        {
+          "id": "innocent-truth-074",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你上学的时候成绩好吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 74
+          }
+        },
+        {
+          "id": "innocent-truth-075",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得自己是个念旧的人吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 75
+          }
+        },
+        {
+          "id": "innocent-truth-076",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次吃火锅是和谁一起？",
+          "source": {
+            "kind": "user_text",
+            "number": 76
+          }
+        },
+        {
+          "id": "innocent-truth-077",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有什么恐高、晕血之类的小毛病吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 77
+          }
+        },
+        {
+          "id": "innocent-truth-078",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的一本书是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 78
+          }
+        },
+        {
+          "id": "innocent-truth-079",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有过说走就走的旅行？",
+          "source": {
+            "kind": "user_text",
+            "number": 79
+          }
+        },
+        {
+          "id": "innocent-truth-080",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得自己最大的缺点是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 80
+          }
+        },
+        {
+          "id": "innocent-truth-081",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你晚上一般几点睡觉？",
+          "source": {
+            "kind": "user_text",
+            "number": 81
+          }
+        },
+        {
+          "id": "innocent-truth-082",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最想拥有的超能力是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 82
+          }
+        },
+        {
+          "id": "innocent-truth-083",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有被搭讪过？",
+          "source": {
+            "kind": "user_text",
+            "number": 83
+          }
+        },
+        {
+          "id": "innocent-truth-084",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢吃的水果是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 84
+          }
+        },
+        {
+          "id": "innocent-truth-085",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你做过最懒的一件事是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 85
+          }
+        },
+        {
+          "id": "innocent-truth-086",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你上学的时候有没有逃过课？",
+          "source": {
+            "kind": "user_text",
+            "number": 86
+          }
+        },
+        {
+          "id": "innocent-truth-087",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得彩礼/嫁妆是必须的吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 87
+          }
+        },
+        {
+          "id": "innocent-truth-088",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有什么收藏癖好？",
+          "source": {
+            "kind": "user_text",
+            "number": 88
+          }
+        },
+        {
+          "id": "innocent-truth-089",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近一次让你很感动的事是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 89
+          }
+        },
+        {
+          "id": "innocent-truth-090",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你会玩什么乐器吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 90
+          }
+        },
+        {
+          "id": "innocent-truth-091",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有和陌生人拼过桌？",
+          "source": {
+            "kind": "user_text",
+            "number": 91
+          }
+        },
+        {
+          "id": "innocent-truth-092",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最喜欢的穿搭风格是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 92
+          }
+        },
+        {
+          "id": "innocent-truth-093",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你第一次独自住酒店害怕吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 93
+          }
+        },
+        {
+          "id": "innocent-truth-094",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得异地恋能长久吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 94
+          }
+        },
+        {
+          "id": "innocent-truth-095",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你有没有过被骗的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 95
+          }
+        },
+        {
+          "id": "innocent-truth-096",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你最爱的一道家常菜是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 96
+          }
+        },
+        {
+          "id": "innocent-truth-097",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你平时喜欢拍照吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 97
+          }
+        },
+        {
+          "id": "innocent-truth-098",
+          "level": "innocent",
+          "type": "truth",
+          "text": "你觉得自己是个理性还是感性的人？",
+          "source": {
+            "kind": "user_text",
+            "number": 98
+          }
+        },
+        {
+          "id": "innocent-truth-099",
+          "level": "innocent",
+          "type": "truth",
+          "text": "最近有什么让你期待的事吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 99
+          }
+        },
+        {
+          "id": "innocent-truth-100",
+          "level": "innocent",
+          "type": "truth",
+          "text": "如果给你一千万让你放弃现在的生活，你愿意吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 100
+          }
+        }
+      ]
+    },
+    {
+      "level": "innocent",
+      "type": "dare",
+      "status": "ready",
+      "count": 100,
+      "questions": [
+        {
+          "id": "innocent-dare-001",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学三声猫叫，要越逼真越好",
+          "source": {
+            "kind": "user_text",
+            "number": 1
+          }
+        },
+        {
+          "id": "innocent-dare-002",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把桌上的空瓶子倒立在桌面保持3秒不掉",
+          "source": {
+            "kind": "user_text",
+            "number": 2
+          }
+        },
+        {
+          "id": "innocent-dare-003",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用屁股在空中写出自己的名字",
+          "source": {
+            "kind": "user_text",
+            "number": 3
+          }
+        },
+        {
+          "id": "innocent-dare-004",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给通讯录第3个联系人发一句“我今天超好看”",
+          "source": {
+            "kind": "user_text",
+            "number": 4
+          }
+        },
+        {
+          "id": "innocent-dare-005",
+          "level": "innocent",
+          "type": "dare",
+          "text": "唱一首儿歌的高潮部分",
+          "source": {
+            "kind": "user_text",
+            "number": 5
+          }
+        },
+        {
+          "id": "innocent-dare-006",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿猪八戒背媳妇的动作走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 6
+          }
+        },
+        {
+          "id": "innocent-dare-007",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把左手放进右边袖子，右手放进左边袖子，坚持10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 7
+          }
+        },
+        {
+          "id": "innocent-dare-008",
+          "level": "innocent",
+          "type": "dare",
+          "text": "对着镜子做5个鬼脸",
+          "source": {
+            "kind": "user_text",
+            "number": 8
+          }
+        },
+        {
+          "id": "innocent-dare-009",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用方言说一句绕口令",
+          "source": {
+            "kind": "user_text",
+            "number": 9
+          }
+        },
+        {
+          "id": "innocent-dare-010",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做10个深蹲",
+          "source": {
+            "kind": "user_text",
+            "number": 10
+          }
+        },
+        {
+          "id": "innocent-dare-011",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家表演一个大猩猩走路",
+          "source": {
+            "kind": "user_text",
+            "number": 11
+          }
+        },
+        {
+          "id": "innocent-dare-012",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把纸巾撕成条状贴在脸上当胡子保持30秒",
+          "source": {
+            "kind": "user_text",
+            "number": 12
+          }
+        },
+        {
+          "id": "innocent-dare-013",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学鸭子走路绕桌子走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 13
+          }
+        },
+        {
+          "id": "innocent-dare-014",
+          "level": "innocent",
+          "type": "dare",
+          "text": "随便打开一个短视频APP，给刷到的第一个视频点赞评论",
+          "source": {
+            "kind": "user_text",
+            "number": 14
+          }
+        },
+        {
+          "id": "innocent-dare-015",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用嘴叼着笔在纸上写“大冒险”三个字",
+          "source": {
+            "kind": "user_text",
+            "number": 15
+          }
+        },
+        {
+          "id": "innocent-dare-016",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿你最熟悉的一个老师讲课",
+          "source": {
+            "kind": "user_text",
+            "number": 16
+          }
+        },
+        {
+          "id": "innocent-dare-017",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做5个俯卧撑",
+          "source": {
+            "kind": "user_text",
+            "number": 17
+          }
+        },
+        {
+          "id": "innocent-dare-018",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把自己的鞋带解开再系上，全程用一只手",
+          "source": {
+            "kind": "user_text",
+            "number": 18
+          }
+        },
+        {
+          "id": "innocent-dare-019",
+          "level": "innocent",
+          "type": "dare",
+          "text": "唱一首国歌，要大声唱",
+          "source": {
+            "kind": "user_text",
+            "number": 19
+          }
+        },
+        {
+          "id": "innocent-dare-020",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿表情包“委屈巴巴”的样子",
+          "source": {
+            "kind": "user_text",
+            "number": 20
+          }
+        },
+        {
+          "id": "innocent-dare-021",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用下巴夹着手机保持10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 21
+          }
+        },
+        {
+          "id": "innocent-dare-022",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给在场的每个人都夸一句",
+          "source": {
+            "kind": "user_text",
+            "number": 22
+          }
+        },
+        {
+          "id": "innocent-dare-023",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学青蛙跳5下",
+          "source": {
+            "kind": "user_text",
+            "number": 23
+          }
+        },
+        {
+          "id": "innocent-dare-024",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把一瓶水一口气喝完",
+          "source": {
+            "kind": "user_text",
+            "number": 24
+          }
+        },
+        {
+          "id": "innocent-dare-025",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿宋小宝的经典台词“海燕呐，你可长点心吧”",
+          "source": {
+            "kind": "user_text",
+            "number": 25
+          }
+        },
+        {
+          "id": "innocent-dare-026",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用鼻子和嘴巴一起夹住一张纸巾保持10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 26
+          }
+        },
+        {
+          "id": "innocent-dare-027",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家讲一个冷笑话，必须有人笑",
+          "source": {
+            "kind": "user_text",
+            "number": 27
+          }
+        },
+        {
+          "id": "innocent-dare-028",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做一个最丑的自拍表情",
+          "source": {
+            "kind": "user_text",
+            "number": 28
+          }
+        },
+        {
+          "id": "innocent-dare-029",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿电视剧里霸道总裁的经典台词",
+          "source": {
+            "kind": "user_text",
+            "number": 29
+          }
+        },
+        {
+          "id": "innocent-dare-030",
+          "level": "innocent",
+          "type": "dare",
+          "text": "原地转10圈，然后走直线走回座位",
+          "source": {
+            "kind": "user_text",
+            "number": 30
+          }
+        },
+        {
+          "id": "innocent-dare-031",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把双手举过头顶拍掌，边拍边说“我最棒”",
+          "source": {
+            "kind": "user_text",
+            "number": 31
+          }
+        },
+        {
+          "id": "innocent-dare-032",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学三声狗叫",
+          "source": {
+            "kind": "user_text",
+            "number": 32
+          }
+        },
+        {
+          "id": "innocent-dare-033",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用左手给大家倒一杯水",
+          "source": {
+            "kind": "user_text",
+            "number": 33
+          }
+        },
+        {
+          "id": "innocent-dare-034",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿蜡笔小新说话",
+          "source": {
+            "kind": "user_text",
+            "number": 34
+          }
+        },
+        {
+          "id": "innocent-dare-035",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做一个瑜伽动作保持10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 35
+          }
+        },
+        {
+          "id": "innocent-dare-036",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把自己的袜子脱下来再穿上",
+          "source": {
+            "kind": "user_text",
+            "number": 36
+          }
+        },
+        {
+          "id": "innocent-dare-037",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家表演一个翻白眼",
+          "source": {
+            "kind": "user_text",
+            "number": 37
+          }
+        },
+        {
+          "id": "innocent-dare-038",
+          "level": "innocent",
+          "type": "dare",
+          "text": "唱一首《两只老虎》",
+          "source": {
+            "kind": "user_text",
+            "number": 38
+          }
+        },
+        {
+          "id": "innocent-dare-039",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用屁股撞一下椅子",
+          "source": {
+            "kind": "user_text",
+            "number": 39
+          }
+        },
+        {
+          "id": "innocent-dare-040",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿婴儿哭的声音",
+          "source": {
+            "kind": "user_text",
+            "number": 40
+          }
+        },
+        {
+          "id": "innocent-dare-041",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把书顶在头上走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 41
+          }
+        },
+        {
+          "id": "innocent-dare-042",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学母鸡下蛋的叫声",
+          "source": {
+            "kind": "user_text",
+            "number": 42
+          }
+        },
+        {
+          "id": "innocent-dare-043",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做15个开合跳",
+          "source": {
+            "kind": "user_text",
+            "number": 43
+          }
+        },
+        {
+          "id": "innocent-dare-044",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用牙齿打开一瓶矿泉水",
+          "source": {
+            "kind": "user_text",
+            "number": 44
+          }
+        },
+        {
+          "id": "innocent-dare-045",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿孙悟空的经典动作",
+          "source": {
+            "kind": "user_text",
+            "number": 45
+          }
+        },
+        {
+          "id": "innocent-dare-046",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给通讯录第5个人发一个表情包",
+          "source": {
+            "kind": "user_text",
+            "number": 46
+          }
+        },
+        {
+          "id": "innocent-dare-047",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把舌头伸出来保持10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 47
+          }
+        },
+        {
+          "id": "innocent-dare-048",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学模特走台步走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 48
+          }
+        },
+        {
+          "id": "innocent-dare-049",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家唱一句跑调的歌",
+          "source": {
+            "kind": "user_text",
+            "number": 49
+          }
+        },
+        {
+          "id": "innocent-dare-050",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用手肘碰自己的耳朵",
+          "source": {
+            "kind": "user_text",
+            "number": 50
+          }
+        },
+        {
+          "id": "innocent-dare-051",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿皮卡丘的声音说“皮卡丘”",
+          "source": {
+            "kind": "user_text",
+            "number": 51
+          }
+        },
+        {
+          "id": "innocent-dare-052",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做一个飞吻的动作",
+          "source": {
+            "kind": "user_text",
+            "number": 52
+          }
+        },
+        {
+          "id": "innocent-dare-053",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把裤子挽到膝盖以上保持30秒",
+          "source": {
+            "kind": "user_text",
+            "number": 53
+          }
+        },
+        {
+          "id": "innocent-dare-054",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学公鸡打鸣",
+          "source": {
+            "kind": "user_text",
+            "number": 54
+          }
+        },
+        {
+          "id": "innocent-dare-055",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用一只手捂住眼睛，从门口走回座位",
+          "source": {
+            "kind": "user_text",
+            "number": 55
+          }
+        },
+        {
+          "id": "innocent-dare-056",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家表演一个“葛优躺”",
+          "source": {
+            "kind": "user_text",
+            "number": 56
+          }
+        },
+        {
+          "id": "innocent-dare-057",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学三声羊叫",
+          "source": {
+            "kind": "user_text",
+            "number": 57
+          }
+        },
+        {
+          "id": "innocent-dare-058",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把笔夹在鼻子和嘴唇之间保持10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 58
+          }
+        },
+        {
+          "id": "innocent-dare-059",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿蜘蛛侠发射蛛丝的动作",
+          "source": {
+            "kind": "user_text",
+            "number": 59
+          }
+        },
+        {
+          "id": "innocent-dare-060",
+          "level": "innocent",
+          "type": "dare",
+          "text": "原地跳20下",
+          "source": {
+            "kind": "user_text",
+            "number": 60
+          }
+        },
+        {
+          "id": "innocent-dare-061",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用嘴把地上的纸巾捡起来",
+          "source": {
+            "kind": "user_text",
+            "number": 61
+          }
+        },
+        {
+          "id": "innocent-dare-062",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学唐老鸭说话",
+          "source": {
+            "kind": "user_text",
+            "number": 62
+          }
+        },
+        {
+          "id": "innocent-dare-063",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做一个很夸张的惊讶表情",
+          "source": {
+            "kind": "user_text",
+            "number": 63
+          }
+        },
+        {
+          "id": "innocent-dare-064",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给在场的一个人捶背30秒",
+          "source": {
+            "kind": "user_text",
+            "number": 64
+          }
+        },
+        {
+          "id": "innocent-dare-065",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学僵尸走路走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 65
+          }
+        },
+        {
+          "id": "innocent-dare-066",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把自己的头发弄成鸡窝状",
+          "source": {
+            "kind": "user_text",
+            "number": 66
+          }
+        },
+        {
+          "id": "innocent-dare-067",
+          "level": "innocent",
+          "type": "dare",
+          "text": "唱一首《小星星》",
+          "source": {
+            "kind": "user_text",
+            "number": 67
+          }
+        },
+        {
+          "id": "innocent-dare-068",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿老年人走路",
+          "source": {
+            "kind": "user_text",
+            "number": 68
+          }
+        },
+        {
+          "id": "innocent-dare-069",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用鼻子哼一首歌",
+          "source": {
+            "kind": "user_text",
+            "number": 69
+          }
+        },
+        {
+          "id": "innocent-dare-070",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做8个仰卧起坐",
+          "source": {
+            "kind": "user_text",
+            "number": 70
+          }
+        },
+        {
+          "id": "innocent-dare-071",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学企鹅走路",
+          "source": {
+            "kind": "user_text",
+            "number": 71
+          }
+        },
+        {
+          "id": "innocent-dare-072",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家讲一个鬼故事",
+          "source": {
+            "kind": "user_text",
+            "number": 72
+          }
+        },
+        {
+          "id": "innocent-dare-073",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把杯子放在头顶，低头再抬头，杯子不能掉",
+          "source": {
+            "kind": "user_text",
+            "number": 73
+          }
+        },
+        {
+          "id": "innocent-dare-074",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿甄嬛传里的经典台词",
+          "source": {
+            "kind": "user_text",
+            "number": 74
+          }
+        },
+        {
+          "id": "innocent-dare-075",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学三声牛叫",
+          "source": {
+            "kind": "user_text",
+            "number": 75
+          }
+        },
+        {
+          "id": "innocent-dare-076",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用左手写字写出自己的名字",
+          "source": {
+            "kind": "user_text",
+            "number": 76
+          }
+        },
+        {
+          "id": "innocent-dare-077",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做一个害羞的表情",
+          "source": {
+            "kind": "user_text",
+            "number": 77
+          }
+        },
+        {
+          "id": "innocent-dare-078",
+          "level": "innocent",
+          "type": "dare",
+          "text": "原地高抬腿10次",
+          "source": {
+            "kind": "user_text",
+            "number": 78
+          }
+        },
+        {
+          "id": "innocent-dare-079",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿交警指挥交通",
+          "source": {
+            "kind": "user_text",
+            "number": 79
+          }
+        },
+        {
+          "id": "innocent-dare-080",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把纸巾揉成球，扔进3米外的垃圾桶里",
+          "source": {
+            "kind": "user_text",
+            "number": 80
+          }
+        },
+        {
+          "id": "innocent-dare-081",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学太监说话“皇上驾到”",
+          "source": {
+            "kind": "user_text",
+            "number": 81
+          }
+        },
+        {
+          "id": "innocent-dare-082",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做一个生气的表情",
+          "source": {
+            "kind": "user_text",
+            "number": 82
+          }
+        },
+        {
+          "id": "innocent-dare-083",
+          "level": "innocent",
+          "type": "dare",
+          "text": "唱一首《生日快乐歌》",
+          "source": {
+            "kind": "user_text",
+            "number": 83
+          }
+        },
+        {
+          "id": "innocent-dare-084",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿树懒说话的速度说一句话",
+          "source": {
+            "kind": "user_text",
+            "number": 84
+          }
+        },
+        {
+          "id": "innocent-dare-085",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把双手背在身后，用嘴喝一口水",
+          "source": {
+            "kind": "user_text",
+            "number": 85
+          }
+        },
+        {
+          "id": "innocent-dare-086",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学老鹰展翅的动作保持10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 86
+          }
+        },
+        {
+          "id": "innocent-dare-087",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家表演一个魔术（随便什么都行）",
+          "source": {
+            "kind": "user_text",
+            "number": 87
+          }
+        },
+        {
+          "id": "innocent-dare-088",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿机器人走路",
+          "source": {
+            "kind": "user_text",
+            "number": 88
+          }
+        },
+        {
+          "id": "innocent-dare-089",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用手指打响指，连续打5次",
+          "source": {
+            "kind": "user_text",
+            "number": 89
+          }
+        },
+        {
+          "id": "innocent-dare-090",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学三声猪叫",
+          "source": {
+            "kind": "user_text",
+            "number": 90
+          }
+        },
+        {
+          "id": "innocent-dare-091",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把鞋带系成蝴蝶结",
+          "source": {
+            "kind": "user_text",
+            "number": 91
+          }
+        },
+        {
+          "id": "innocent-dare-092",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿小朋友撒娇的样子",
+          "source": {
+            "kind": "user_text",
+            "number": 92
+          }
+        },
+        {
+          "id": "innocent-dare-093",
+          "level": "innocent",
+          "type": "dare",
+          "text": "做一个后空翻的姿势（不用真翻）",
+          "source": {
+            "kind": "user_text",
+            "number": 93
+          }
+        },
+        {
+          "id": "innocent-dare-094",
+          "level": "innocent",
+          "type": "dare",
+          "text": "给大家唱一句戏曲",
+          "source": {
+            "kind": "user_text",
+            "number": 94
+          }
+        },
+        {
+          "id": "innocent-dare-095",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用膝盖夹着一本书走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 95
+          }
+        },
+        {
+          "id": "innocent-dare-096",
+          "level": "innocent",
+          "type": "dare",
+          "text": "模仿打哈欠的样子打5个假哈欠",
+          "source": {
+            "kind": "user_text",
+            "number": 96
+          }
+        },
+        {
+          "id": "innocent-dare-097",
+          "level": "innocent",
+          "type": "dare",
+          "text": "学跳绳的动作跳10下",
+          "source": {
+            "kind": "user_text",
+            "number": 97
+          }
+        },
+        {
+          "id": "innocent-dare-098",
+          "level": "innocent",
+          "type": "dare",
+          "text": "用嘴巴模仿打鼓声",
+          "source": {
+            "kind": "user_text",
+            "number": 98
+          }
+        },
+        {
+          "id": "innocent-dare-099",
+          "level": "innocent",
+          "type": "dare",
+          "text": "把外套反着穿30秒",
+          "source": {
+            "kind": "user_text",
+            "number": 99
+          }
+        },
+        {
+          "id": "innocent-dare-100",
+          "level": "innocent",
+          "type": "dare",
+          "text": "对着窗外大喊一声“我好快乐”",
+          "source": {
+            "kind": "user_text",
+            "number": 100
+          }
+        }
+      ]
+    },
+    {
+      "level": "flirty",
+      "type": "truth",
+      "status": "ready",
+      "count": 100,
+      "questions": [
+        {
+          "id": "flirty-truth-001",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你一共谈过几次恋爱？",
+          "source": {
+            "kind": "user_text",
+            "number": 1
+          }
+        },
+        {
+          "id": "flirty-truth-002",
+          "level": "flirty",
+          "type": "truth",
+          "text": "在场的异性里，你对哪一个最有好感？",
+          "source": {
+            "kind": "user_text",
+            "number": 2
+          }
+        },
+        {
+          "id": "flirty-truth-003",
+          "level": "flirty",
+          "type": "truth",
+          "text": "最近一次心动是因为什么瞬间？",
+          "source": {
+            "kind": "user_text",
+            "number": 3
+          }
+        },
+        {
+          "id": "flirty-truth-004",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你的初吻是在几岁，和谁？",
+          "source": {
+            "kind": "user_text",
+            "number": 4
+          }
+        },
+        {
+          "id": "flirty-truth-005",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你理想型的三个核心标准是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 5
+          }
+        },
+        {
+          "id": "flirty-truth-006",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最长的一段恋爱谈了多久？",
+          "source": {
+            "kind": "user_text",
+            "number": 6
+          }
+        },
+        {
+          "id": "flirty-truth-007",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有和好朋友喜欢过同一个人？",
+          "source": {
+            "kind": "user_text",
+            "number": 7
+          }
+        },
+        {
+          "id": "flirty-truth-008",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得一见钟情和日久生情哪个更靠谱？",
+          "source": {
+            "kind": "user_text",
+            "number": 8
+          }
+        },
+        {
+          "id": "flirty-truth-009",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你被人追过最夸张的一次是什么样的？",
+          "source": {
+            "kind": "user_text",
+            "number": 9
+          }
+        },
+        {
+          "id": "flirty-truth-010",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你谈过的恋爱里，最遗憾的是哪一段？",
+          "source": {
+            "kind": "user_text",
+            "number": 10
+          }
+        },
+        {
+          "id": "flirty-truth-011",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你会接受姐弟恋/兄妹恋吗，接受的年龄差是多少？",
+          "source": {
+            "kind": "user_text",
+            "number": 11
+          }
+        },
+        {
+          "id": "flirty-truth-012",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你第一次喜欢一个人是在几岁？",
+          "source": {
+            "kind": "user_text",
+            "number": 12
+          }
+        },
+        {
+          "id": "flirty-truth-013",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得恋爱里最重要的是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 13
+          }
+        },
+        {
+          "id": "flirty-truth-014",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有偷偷翻喜欢的人的朋友圈/空间？",
+          "source": {
+            "kind": "user_text",
+            "number": 14
+          }
+        },
+        {
+          "id": "flirty-truth-015",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最不能接受另一半的什么行为？",
+          "source": {
+            "kind": "user_text",
+            "number": 15
+          }
+        },
+        {
+          "id": "flirty-truth-016",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得男女之间有纯友谊吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 16
+          }
+        },
+        {
+          "id": "flirty-truth-017",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你主动追过别人吗，成功了吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 17
+          }
+        },
+        {
+          "id": "flirty-truth-018",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最想和喜欢的人一起做什么事？",
+          "source": {
+            "kind": "user_text",
+            "number": 18
+          }
+        },
+        {
+          "id": "flirty-truth-019",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过暧昧期很长但没在一起的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 19
+          }
+        },
+        {
+          "id": "flirty-truth-020",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你被甩过吗，最难受的一次是因为什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 20
+          }
+        },
+        {
+          "id": "flirty-truth-021",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你甩过别人吗，当时是怎么说的？",
+          "source": {
+            "kind": "user_text",
+            "number": 21
+          }
+        },
+        {
+          "id": "flirty-truth-022",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢什么类型的穿搭风格的异性？",
+          "source": {
+            "kind": "user_text",
+            "number": 22
+          }
+        },
+        {
+          "id": "flirty-truth-023",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得自己是个粘人的对象吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 23
+          }
+        },
+        {
+          "id": "flirty-truth-024",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过梦到过在场的某个人？",
+          "source": {
+            "kind": "user_text",
+            "number": 24
+          }
+        },
+        {
+          "id": "flirty-truth-025",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你恋爱的时候会公开朋友圈吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 25
+          }
+        },
+        {
+          "id": "flirty-truth-026",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最浪漫的一次约会是怎么过的？",
+          "source": {
+            "kind": "user_text",
+            "number": 26
+          }
+        },
+        {
+          "id": "flirty-truth-027",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你能接受异地恋吗，最多能接受多久不见面？",
+          "source": {
+            "kind": "user_text",
+            "number": 27
+          }
+        },
+        {
+          "id": "flirty-truth-028",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过暗恋一个人很久的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 28
+          }
+        },
+        {
+          "id": "flirty-truth-029",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得约会的时候AA制合理吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 29
+          }
+        },
+        {
+          "id": "flirty-truth-030",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢被人管着还是喜欢自由？",
+          "source": {
+            "kind": "user_text",
+            "number": 30
+          }
+        },
+        {
+          "id": "flirty-truth-031",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你第一次牵手是什么感觉？",
+          "source": {
+            "kind": "user_text",
+            "number": 31
+          }
+        },
+        {
+          "id": "flirty-truth-032",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过在喜欢的人面前出糗的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 32
+          }
+        },
+        {
+          "id": "flirty-truth-033",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得恋爱多久适合结婚？",
+          "source": {
+            "kind": "user_text",
+            "number": 33
+          }
+        },
+        {
+          "id": "flirty-truth-034",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最吃异性哪一套撩人的方式？",
+          "source": {
+            "kind": "user_text",
+            "number": 34
+          }
+        },
+        {
+          "id": "flirty-truth-035",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过和前任复合的想法？",
+          "source": {
+            "kind": "user_text",
+            "number": 35
+          }
+        },
+        {
+          "id": "flirty-truth-036",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢撒娇吗，会对谁撒娇？",
+          "source": {
+            "kind": "user_text",
+            "number": 36
+          }
+        },
+        {
+          "id": "flirty-truth-037",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得颜值和性格哪个更重要？",
+          "source": {
+            "kind": "user_text",
+            "number": 37
+          }
+        },
+        {
+          "id": "flirty-truth-038",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过因为一个人爱上一座城市的感觉？",
+          "source": {
+            "kind": "user_text",
+            "number": 38
+          }
+        },
+        {
+          "id": "flirty-truth-039",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最想收到另一半送的什么礼物？",
+          "source": {
+            "kind": "user_text",
+            "number": 39
+          }
+        },
+        {
+          "id": "flirty-truth-040",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你恋爱前后最大的变化是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 40
+          }
+        },
+        {
+          "id": "flirty-truth-041",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你能接受另一半有很好的异性朋友吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 41
+          }
+        },
+        {
+          "id": "flirty-truth-042",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过故意气喜欢的人的时候？",
+          "source": {
+            "kind": "user_text",
+            "number": 42
+          }
+        },
+        {
+          "id": "flirty-truth-043",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得自己是个好相处的对象吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 43
+          }
+        },
+        {
+          "id": "flirty-truth-044",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最难忘的一次告白是什么样的？",
+          "source": {
+            "kind": "user_text",
+            "number": 44
+          }
+        },
+        {
+          "id": "flirty-truth-045",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢轰轰烈烈的爱情还是平平淡淡的？",
+          "source": {
+            "kind": "user_text",
+            "number": 45
+          }
+        },
+        {
+          "id": "flirty-truth-046",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过和网友面基的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 46
+          }
+        },
+        {
+          "id": "flirty-truth-047",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得分手了还能做朋友吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 47
+          }
+        },
+        {
+          "id": "flirty-truth-048",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最受不了异性什么缺点？",
+          "source": {
+            "kind": "user_text",
+            "number": 48
+          }
+        },
+        {
+          "id": "flirty-truth-049",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过一瞬间想结婚的念头？",
+          "source": {
+            "kind": "user_text",
+            "number": 49
+          }
+        },
+        {
+          "id": "flirty-truth-050",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢什么样的约会方式？",
+          "source": {
+            "kind": "user_text",
+            "number": 50
+          }
+        },
+        {
+          "id": "flirty-truth-051",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你第一次抱喜欢的人是什么感觉？",
+          "source": {
+            "kind": "user_text",
+            "number": 51
+          }
+        },
+        {
+          "id": "flirty-truth-052",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过吃错醋的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 52
+          }
+        },
+        {
+          "id": "flirty-truth-053",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得恋爱里需要仪式感吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 53
+          }
+        },
+        {
+          "id": "flirty-truth-054",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你追人的时候会用什么小套路？",
+          "source": {
+            "kind": "user_text",
+            "number": 54
+          }
+        },
+        {
+          "id": "flirty-truth-055",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过因为谈恋爱而忽略朋友的时候？",
+          "source": {
+            "kind": "user_text",
+            "number": 55
+          }
+        },
+        {
+          "id": "flirty-truth-056",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最喜欢另一半叫你什么称呼？",
+          "source": {
+            "kind": "user_text",
+            "number": 56
+          }
+        },
+        {
+          "id": "flirty-truth-057",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你能接受另一半比你赚得多/少吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 57
+          }
+        },
+        {
+          "id": "flirty-truth-058",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过和喜欢的人对视然后心跳加速的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 58
+          }
+        },
+        {
+          "id": "flirty-truth-059",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得冷战最久不能超过多久？",
+          "source": {
+            "kind": "user_text",
+            "number": 59
+          }
+        },
+        {
+          "id": "flirty-truth-060",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢主动一点还是被动一点？",
+          "source": {
+            "kind": "user_text",
+            "number": 60
+          }
+        },
+        {
+          "id": "flirty-truth-061",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过为了喜欢的人改变自己？",
+          "source": {
+            "kind": "user_text",
+            "number": 61
+          }
+        },
+        {
+          "id": "flirty-truth-062",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最想和喜欢的人去哪个地方旅行？",
+          "source": {
+            "kind": "user_text",
+            "number": 62
+          }
+        },
+        {
+          "id": "flirty-truth-063",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得自己的恋爱脑严重吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 63
+          }
+        },
+        {
+          "id": "flirty-truth-064",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过被人暗恋但是自己后知后觉的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 64
+          }
+        },
+        {
+          "id": "flirty-truth-065",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你恋爱的时候会查对方的手机吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 65
+          }
+        },
+        {
+          "id": "flirty-truth-066",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最喜欢的情侣相处模式是什么样的？",
+          "source": {
+            "kind": "user_text",
+            "number": 66
+          }
+        },
+        {
+          "id": "flirty-truth-067",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过在深夜想念一个人到睡不着？",
+          "source": {
+            "kind": "user_text",
+            "number": 67
+          }
+        },
+        {
+          "id": "flirty-truth-068",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得一见钟情看的主要是脸吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 68
+          }
+        },
+        {
+          "id": "flirty-truth-069",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你能接受闪婚吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 69
+          }
+        },
+        {
+          "id": "flirty-truth-070",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过假装偶遇喜欢的人的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 70
+          }
+        },
+        {
+          "id": "flirty-truth-071",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得恋爱里谁应该更主动？",
+          "source": {
+            "kind": "user_text",
+            "number": 71
+          }
+        },
+        {
+          "id": "flirty-truth-072",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最感动的一次告白是什么样的？",
+          "source": {
+            "kind": "user_text",
+            "number": 72
+          }
+        },
+        {
+          "id": "flirty-truth-073",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过和喜欢的人一起过夜的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 73
+          }
+        },
+        {
+          "id": "flirty-truth-074",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢什么性格的异性？",
+          "source": {
+            "kind": "user_text",
+            "number": 74
+          }
+        },
+        {
+          "id": "flirty-truth-075",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得分手应该当面说还是微信说？",
+          "source": {
+            "kind": "user_text",
+            "number": 75
+          }
+        },
+        {
+          "id": "flirty-truth-076",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过因为一个细节而喜欢上一个人？",
+          "source": {
+            "kind": "user_text",
+            "number": 76
+          }
+        },
+        {
+          "id": "flirty-truth-077",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你能接受另一半有很多前任吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 77
+          }
+        },
+        {
+          "id": "flirty-truth-078",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你恋爱的时候会给对方花钱吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 78
+          }
+        },
+        {
+          "id": "flirty-truth-079",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过被异性撩到心跳加速的时候？",
+          "source": {
+            "kind": "user_text",
+            "number": 79
+          }
+        },
+        {
+          "id": "flirty-truth-080",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最想和喜欢的人过什么节日？",
+          "source": {
+            "kind": "user_text",
+            "number": 80
+          }
+        },
+        {
+          "id": "flirty-truth-081",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得恋爱里最容易吵架的原因是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 81
+          }
+        },
+        {
+          "id": "flirty-truth-082",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过暗恋的人刚好也喜欢你的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 82
+          }
+        },
+        {
+          "id": "flirty-truth-083",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你喜欢粘人的另一半还是独立的？",
+          "source": {
+            "kind": "user_text",
+            "number": 83
+          }
+        },
+        {
+          "id": "flirty-truth-084",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你第一次告白是在什么时候，成功了吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 84
+          }
+        },
+        {
+          "id": "flirty-truth-085",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得情侣之间应该有秘密吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 85
+          }
+        },
+        {
+          "id": "flirty-truth-086",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过为了见喜欢的人特意打扮很久？",
+          "source": {
+            "kind": "user_text",
+            "number": 86
+          }
+        },
+        {
+          "id": "flirty-truth-087",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你能接受丁克吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 87
+          }
+        },
+        {
+          "id": "flirty-truth-088",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最讨厌的分手理由是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 88
+          }
+        },
+        {
+          "id": "flirty-truth-089",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过和喜欢的人共用一个东西的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 89
+          }
+        },
+        {
+          "id": "flirty-truth-090",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得身高差多少最合适？",
+          "source": {
+            "kind": "user_text",
+            "number": 90
+          }
+        },
+        {
+          "id": "flirty-truth-091",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你恋爱的时候会经常撒娇吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 91
+          }
+        },
+        {
+          "id": "flirty-truth-092",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过因为别人的长相而误会对方性格的经历？",
+          "source": {
+            "kind": "user_text",
+            "number": 92
+          }
+        },
+        {
+          "id": "flirty-truth-093",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得情侣同居是必要的吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 93
+          }
+        },
+        {
+          "id": "flirty-truth-094",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最喜欢的肢体接触是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 94
+          }
+        },
+        {
+          "id": "flirty-truth-095",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过在游戏里和人处过cp？",
+          "source": {
+            "kind": "user_text",
+            "number": 95
+          }
+        },
+        {
+          "id": "flirty-truth-096",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你最不能原谅另一半的什么错误？",
+          "source": {
+            "kind": "user_text",
+            "number": 96
+          }
+        },
+        {
+          "id": "flirty-truth-097",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你有没有过想和一个人过一辈子的瞬间？",
+          "source": {
+            "kind": "user_text",
+            "number": 97
+          }
+        },
+        {
+          "id": "flirty-truth-098",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你觉得喜欢和爱的区别是什么？",
+          "source": {
+            "kind": "user_text",
+            "number": 98
+          }
+        },
+        {
+          "id": "flirty-truth-099",
+          "level": "flirty",
+          "type": "truth",
+          "text": "你恋爱的时候会秀恩爱吗？",
+          "source": {
+            "kind": "user_text",
+            "number": 99
+          }
+        },
+        {
+          "id": "flirty-truth-100",
+          "level": "flirty",
+          "type": "truth",
+          "text": "如果现在让你在场选一个人谈恋爱，你会选谁？",
+          "source": {
+            "kind": "user_text",
+            "number": 100
+          }
+        }
+      ]
+    },
+    {
+      "level": "flirty",
+      "type": "dare",
+      "status": "ready",
+      "count": 100,
+      "questions": [
+        {
+          "id": "flirty-dare-001",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和你右手边的人对视10秒，不许笑不许躲",
+          "source": {
+            "kind": "user_text",
+            "number": 1
+          }
+        },
+        {
+          "id": "flirty-dare-002",
+          "level": "flirty",
+          "type": "dare",
+          "text": "凑到身边最近的异性耳边说一句悄悄话",
+          "source": {
+            "kind": "user_text",
+            "number": 2
+          }
+        },
+        {
+          "id": "flirty-dare-003",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人十指相扣保持5秒钟",
+          "source": {
+            "kind": "user_text",
+            "number": 3
+          }
+        },
+        {
+          "id": "flirty-dare-004",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用身边人的水杯喝一口水",
+          "source": {
+            "kind": "user_text",
+            "number": 4
+          }
+        },
+        {
+          "id": "flirty-dare-005",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻碰一下对方的鼻尖",
+          "source": {
+            "kind": "user_text",
+            "number": 5
+          }
+        },
+        {
+          "id": "flirty-dare-006",
+          "level": "flirty",
+          "type": "dare",
+          "text": "从背后抱一下你左边的人，坚持3秒",
+          "source": {
+            "kind": "user_text",
+            "number": 6
+          }
+        },
+        {
+          "id": "flirty-dare-007",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对在场你最有好感的人说一句“你真好看”",
+          "source": {
+            "kind": "user_text",
+            "number": 7
+          }
+        },
+        {
+          "id": "flirty-dare-008",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人头靠头拍一张合照",
+          "source": {
+            "kind": "user_text",
+            "number": 8
+          }
+        },
+        {
+          "id": "flirty-dare-009",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用手指轻轻刮一下对方的鼻子",
+          "source": {
+            "kind": "user_text",
+            "number": 9
+          }
+        },
+        {
+          "id": "flirty-dare-010",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人玩石头剪刀布，输的人被弹一下脑门",
+          "source": {
+            "kind": "user_text",
+            "number": 10
+          }
+        },
+        {
+          "id": "flirty-dare-011",
+          "level": "flirty",
+          "type": "dare",
+          "text": "凑到对方耳边轻轻吹一口气",
+          "source": {
+            "kind": "user_text",
+            "number": 11
+          }
+        },
+        {
+          "id": "flirty-dare-012",
+          "level": "flirty",
+          "type": "dare",
+          "text": "挽着身边人的胳膊绕桌子走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 12
+          }
+        },
+        {
+          "id": "flirty-dare-013",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和你选的一个人面对面站着，鼻尖碰鼻尖保持3秒",
+          "source": {
+            "kind": "user_text",
+            "number": 13
+          }
+        },
+        {
+          "id": "flirty-dare-014",
+          "level": "flirty",
+          "type": "dare",
+          "text": "给身边的人整理一下衣领或者头发",
+          "source": {
+            "kind": "user_text",
+            "number": 14
+          }
+        },
+        {
+          "id": "flirty-dare-015",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对在场的一个异性说一句土味情话",
+          "source": {
+            "kind": "user_text",
+            "number": 15
+          }
+        },
+        {
+          "id": "flirty-dare-016",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人十指相扣，互相看着对方的眼睛说“我喜欢你”",
+          "source": {
+            "kind": "user_text",
+            "number": 16
+          }
+        },
+        {
+          "id": "flirty-dare-017",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻捏一下对方的脸",
+          "source": {
+            "kind": "user_text",
+            "number": 17
+          }
+        },
+        {
+          "id": "flirty-dare-018",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人交替喝水，共用一根吸管",
+          "source": {
+            "kind": "user_text",
+            "number": 18
+          }
+        },
+        {
+          "id": "flirty-dare-019",
+          "level": "flirty",
+          "type": "dare",
+          "text": "从正面抱一下你右手边的人",
+          "source": {
+            "kind": "user_text",
+            "number": 19
+          }
+        },
+        {
+          "id": "flirty-dare-020",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用你的手比成枪，对着对方“开枪”，对方要配合倒下",
+          "source": {
+            "kind": "user_text",
+            "number": 20
+          }
+        },
+        {
+          "id": "flirty-dare-021",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起比个爱心拍照",
+          "source": {
+            "kind": "user_text",
+            "number": 21
+          }
+        },
+        {
+          "id": "flirty-dare-022",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻摸一下对方的头",
+          "source": {
+            "kind": "user_text",
+            "number": 22
+          }
+        },
+        {
+          "id": "flirty-dare-023",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对着身边人的耳朵轻声说一句“我注意你很久了”",
+          "source": {
+            "kind": "user_text",
+            "number": 23
+          }
+        },
+        {
+          "id": "flirty-dare-024",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人手腕绑在一起，坚持到下一轮",
+          "source": {
+            "kind": "user_text",
+            "number": 24
+          }
+        },
+        {
+          "id": "flirty-dare-025",
+          "level": "flirty",
+          "type": "dare",
+          "text": "给对方喂一颗小零食",
+          "source": {
+            "kind": "user_text",
+            "number": 25
+          }
+        },
+        {
+          "id": "flirty-dare-026",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人背靠背坐30秒",
+          "source": {
+            "kind": "user_text",
+            "number": 26
+          }
+        },
+        {
+          "id": "flirty-dare-027",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用你的袖子给对方擦一下嘴角（假装擦）",
+          "source": {
+            "kind": "user_text",
+            "number": 27
+          }
+        },
+        {
+          "id": "flirty-dare-028",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和你选的人一起唱一首情歌的高潮部分",
+          "source": {
+            "kind": "user_text",
+            "number": 28
+          }
+        },
+        {
+          "id": "flirty-dare-029",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻拉一下对方的衣角撒娇",
+          "source": {
+            "kind": "user_text",
+            "number": 29
+          }
+        },
+        {
+          "id": "flirty-dare-030",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人距离10厘米，互相盯着对方的嘴唇看10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 30
+          }
+        },
+        {
+          "id": "flirty-dare-031",
+          "level": "flirty",
+          "type": "dare",
+          "text": "挽着对方的胳膊，一起去接一杯水",
+          "source": {
+            "kind": "user_text",
+            "number": 31
+          }
+        },
+        {
+          "id": "flirty-dare-032",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用手指轻轻戳一下对方的腰",
+          "source": {
+            "kind": "user_text",
+            "number": 32
+          }
+        },
+        {
+          "id": "flirty-dare-033",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人额头碰额头保持5秒",
+          "source": {
+            "kind": "user_text",
+            "number": 33
+          }
+        },
+        {
+          "id": "flirty-dare-034",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对身边的人说一句“你今天有点不一样”，对方问哪里不一样就说“有点好看”",
+          "source": {
+            "kind": "user_text",
+            "number": 34
+          }
+        },
+        {
+          "id": "flirty-dare-035",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对方手拉手，一起做5个深蹲",
+          "source": {
+            "kind": "user_text",
+            "number": 35
+          }
+        },
+        {
+          "id": "flirty-dare-036",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻拍一下对方的屁股（隔着衣服）",
+          "source": {
+            "kind": "user_text",
+            "number": 36
+          }
+        },
+        {
+          "id": "flirty-dare-037",
+          "level": "flirty",
+          "type": "dare",
+          "text": "凑到对方耳边说一句只有你们俩能听见的秘密",
+          "source": {
+            "kind": "user_text",
+            "number": 37
+          }
+        },
+        {
+          "id": "flirty-dare-038",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起比心，用脸贴住比心的手",
+          "source": {
+            "kind": "user_text",
+            "number": 38
+          }
+        },
+        {
+          "id": "flirty-dare-039",
+          "level": "flirty",
+          "type": "dare",
+          "text": "给对方讲一个睡前小故事",
+          "source": {
+            "kind": "user_text",
+            "number": 39
+          }
+        },
+        {
+          "id": "flirty-dare-040",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人玩“不许动”，坚持10秒谁先动谁输",
+          "source": {
+            "kind": "user_text",
+            "number": 40
+          }
+        },
+        {
+          "id": "flirty-dare-041",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻咬一下对方的耳朵（轻轻碰一下就行）",
+          "source": {
+            "kind": "user_text",
+            "number": 41
+          }
+        },
+        {
+          "id": "flirty-dare-042",
+          "level": "flirty",
+          "type": "dare",
+          "text": "挽着对方的胳膊，靠在对方肩膀上待5秒",
+          "source": {
+            "kind": "user_text",
+            "number": 42
+          }
+        },
+        {
+          "id": "flirty-dare-043",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起自拍一张鬼脸合照",
+          "source": {
+            "kind": "user_text",
+            "number": 43
+          }
+        },
+        {
+          "id": "flirty-dare-044",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用你的手掌和对方的手掌比大小",
+          "source": {
+            "kind": "user_text",
+            "number": 44
+          }
+        },
+        {
+          "id": "flirty-dare-045",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对身边的人说“我可以追你吗”",
+          "source": {
+            "kind": "user_text",
+            "number": 45
+          }
+        },
+        {
+          "id": "flirty-dare-046",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对方脸贴脸拍一张照片",
+          "source": {
+            "kind": "user_text",
+            "number": 46
+          }
+        },
+        {
+          "id": "flirty-dare-047",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻揉一下对方的头发",
+          "source": {
+            "kind": "user_text",
+            "number": 47
+          }
+        },
+        {
+          "id": "flirty-dare-048",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人互相给对方起一个昵称",
+          "source": {
+            "kind": "user_text",
+            "number": 48
+          }
+        },
+        {
+          "id": "flirty-dare-049",
+          "level": "flirty",
+          "type": "dare",
+          "text": "拉着对方的手，转圈转3圈",
+          "source": {
+            "kind": "user_text",
+            "number": 49
+          }
+        },
+        {
+          "id": "flirty-dare-050",
+          "level": "flirty",
+          "type": "dare",
+          "text": "凑到对方耳边说一句“你笑起来真好看”",
+          "source": {
+            "kind": "user_text",
+            "number": 50
+          }
+        },
+        {
+          "id": "flirty-dare-051",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起做一个情侣头像的姿势",
+          "source": {
+            "kind": "user_text",
+            "number": 51
+          }
+        },
+        {
+          "id": "flirty-dare-052",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻刮一下对方的下巴",
+          "source": {
+            "kind": "user_text",
+            "number": 52
+          }
+        },
+        {
+          "id": "flirty-dare-053",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用外套把两个人的头蒙住，待5秒钟",
+          "source": {
+            "kind": "user_text",
+            "number": 53
+          }
+        },
+        {
+          "id": "flirty-dare-054",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对方手拉手，闭上眼睛走5步",
+          "source": {
+            "kind": "user_text",
+            "number": 54
+          }
+        },
+        {
+          "id": "flirty-dare-055",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对身边的人说一句撒娇的话",
+          "source": {
+            "kind": "user_text",
+            "number": 55
+          }
+        },
+        {
+          "id": "flirty-dare-056",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人互相交换一件随身小物品",
+          "source": {
+            "kind": "user_text",
+            "number": 56
+          }
+        },
+        {
+          "id": "flirty-dare-057",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻碰一下对方的嘴唇（用手指代替也可以）",
+          "source": {
+            "kind": "user_text",
+            "number": 57
+          }
+        },
+        {
+          "id": "flirty-dare-058",
+          "level": "flirty",
+          "type": "dare",
+          "text": "挽着对方的胳膊，一起去门口再走回来",
+          "source": {
+            "kind": "user_text",
+            "number": 58
+          }
+        },
+        {
+          "id": "flirty-dare-059",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起喝交杯酒（饮料也可以）",
+          "source": {
+            "kind": "user_text",
+            "number": 59
+          }
+        },
+        {
+          "id": "flirty-dare-060",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用手指轻轻划过对方的手背",
+          "source": {
+            "kind": "user_text",
+            "number": 60
+          }
+        },
+        {
+          "id": "flirty-dare-061",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对着对方的耳朵轻轻唱一句情歌",
+          "source": {
+            "kind": "user_text",
+            "number": 61
+          }
+        },
+        {
+          "id": "flirty-dare-062",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对方额头相抵，一起深呼吸3次",
+          "source": {
+            "kind": "user_text",
+            "number": 62
+          }
+        },
+        {
+          "id": "flirty-dare-063",
+          "level": "flirty",
+          "type": "dare",
+          "text": "给对方整理一下袖口",
+          "source": {
+            "kind": "user_text",
+            "number": 63
+          }
+        },
+        {
+          "id": "flirty-dare-064",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起模仿经典情侣动作",
+          "source": {
+            "kind": "user_text",
+            "number": 64
+          }
+        },
+        {
+          "id": "flirty-dare-065",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻捏一下对方的后颈",
+          "source": {
+            "kind": "user_text",
+            "number": 65
+          }
+        },
+        {
+          "id": "flirty-dare-066",
+          "level": "flirty",
+          "type": "dare",
+          "text": "拉着对方的衣角，跟在对方身后走一圈",
+          "source": {
+            "kind": "user_text",
+            "number": 66
+          }
+        },
+        {
+          "id": "flirty-dare-067",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对身边的人说“你今天的味道很好闻”",
+          "source": {
+            "kind": "user_text",
+            "number": 67
+          }
+        },
+        {
+          "id": "flirty-dare-068",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人玩打手游戏，玩3轮",
+          "source": {
+            "kind": "user_text",
+            "number": 68
+          }
+        },
+        {
+          "id": "flirty-dare-069",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻抱一下对方的腰",
+          "source": {
+            "kind": "user_text",
+            "number": 69
+          }
+        },
+        {
+          "id": "flirty-dare-070",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用你的额头碰一下对方的脸颊",
+          "source": {
+            "kind": "user_text",
+            "number": 70
+          }
+        },
+        {
+          "id": "flirty-dare-071",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起数对方的睫毛",
+          "source": {
+            "kind": "user_text",
+            "number": 71
+          }
+        },
+        {
+          "id": "flirty-dare-072",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻拍一下对方的头说“乖”",
+          "source": {
+            "kind": "user_text",
+            "number": 72
+          }
+        },
+        {
+          "id": "flirty-dare-073",
+          "level": "flirty",
+          "type": "dare",
+          "text": "凑到对方耳边说一句“其实我一直很在意你”",
+          "source": {
+            "kind": "user_text",
+            "number": 73
+          }
+        },
+        {
+          "id": "flirty-dare-074",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对方手拉手，一起蹲下起立5次",
+          "source": {
+            "kind": "user_text",
+            "number": 74
+          }
+        },
+        {
+          "id": "flirty-dare-075",
+          "level": "flirty",
+          "type": "dare",
+          "text": "给对方剥一颗糖喂到嘴里",
+          "source": {
+            "kind": "user_text",
+            "number": 75
+          }
+        },
+        {
+          "id": "flirty-dare-076",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人背靠背，互相猜对方在想什么",
+          "source": {
+            "kind": "user_text",
+            "number": 76
+          }
+        },
+        {
+          "id": "flirty-dare-077",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻刮一下对方的脸颊",
+          "source": {
+            "kind": "user_text",
+            "number": 77
+          }
+        },
+        {
+          "id": "flirty-dare-078",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人距离5厘米，互相呼气10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 78
+          }
+        },
+        {
+          "id": "flirty-dare-079",
+          "level": "flirty",
+          "type": "dare",
+          "text": "挽着对方的胳膊，一起看手机里的一张照片",
+          "source": {
+            "kind": "user_text",
+            "number": 79
+          }
+        },
+        {
+          "id": "flirty-dare-080",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用手指轻轻点一下对方的嘴唇",
+          "source": {
+            "kind": "user_text",
+            "number": 80
+          }
+        },
+        {
+          "id": "flirty-dare-081",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起比个大大的爱心",
+          "source": {
+            "kind": "user_text",
+            "number": 81
+          }
+        },
+        {
+          "id": "flirty-dare-082",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻揉一下对方的脸说“你怎么这么可爱”",
+          "source": {
+            "kind": "user_text",
+            "number": 82
+          }
+        },
+        {
+          "id": "flirty-dare-083",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对着对方的耳朵小声说一句晚安",
+          "source": {
+            "kind": "user_text",
+            "number": 83
+          }
+        },
+        {
+          "id": "flirty-dare-084",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对方手拉手，一起唱一首儿歌",
+          "source": {
+            "kind": "user_text",
+            "number": 84
+          }
+        },
+        {
+          "id": "flirty-dare-085",
+          "level": "flirty",
+          "type": "dare",
+          "text": "从背后轻轻抱一下对方，在耳边说一句话",
+          "source": {
+            "kind": "user_text",
+            "number": 85
+          }
+        },
+        {
+          "id": "flirty-dare-086",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起做鬼脸，谁先笑谁输",
+          "source": {
+            "kind": "user_text",
+            "number": 86
+          }
+        },
+        {
+          "id": "flirty-dare-087",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻碰一下对方的锁骨",
+          "source": {
+            "kind": "user_text",
+            "number": 87
+          }
+        },
+        {
+          "id": "flirty-dare-088",
+          "level": "flirty",
+          "type": "dare",
+          "text": "拉着对方的手，让对方转一个圈",
+          "source": {
+            "kind": "user_text",
+            "number": 88
+          }
+        },
+        {
+          "id": "flirty-dare-089",
+          "level": "flirty",
+          "type": "dare",
+          "text": "对身边的人说一句“我好像有点喜欢你”",
+          "source": {
+            "kind": "user_text",
+            "number": 89
+          }
+        },
+        {
+          "id": "flirty-dare-090",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对面的人互相给对方吹一下眼睛",
+          "source": {
+            "kind": "user_text",
+            "number": 90
+          }
+        },
+        {
+          "id": "flirty-dare-091",
+          "level": "flirty",
+          "type": "dare",
+          "text": "挽着对方的胳膊，靠在对方身上待10秒",
+          "source": {
+            "kind": "user_text",
+            "number": 91
+          }
+        },
+        {
+          "id": "flirty-dare-092",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用纸巾轻轻擦一下对方的额头",
+          "source": {
+            "kind": "user_text",
+            "number": 92
+          }
+        },
+        {
+          "id": "flirty-dare-093",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起模仿韩剧经典拥抱动作",
+          "source": {
+            "kind": "user_text",
+            "number": 93
+          }
+        },
+        {
+          "id": "flirty-dare-094",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻捏一下对方的耳朵",
+          "source": {
+            "kind": "user_text",
+            "number": 94
+          }
+        },
+        {
+          "id": "flirty-dare-095",
+          "level": "flirty",
+          "type": "dare",
+          "text": "凑到对方耳边说一句“你今天特别让我心动”",
+          "source": {
+            "kind": "user_text",
+            "number": 95
+          }
+        },
+        {
+          "id": "flirty-dare-096",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和对方手拉手，一起闭上眼睛许个愿",
+          "source": {
+            "kind": "user_text",
+            "number": 96
+          }
+        },
+        {
+          "id": "flirty-dare-097",
+          "level": "flirty",
+          "type": "dare",
+          "text": "轻轻拍一下对方的后背",
+          "source": {
+            "kind": "user_text",
+            "number": 97
+          }
+        },
+        {
+          "id": "flirty-dare-098",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和身边的人一起喝同一杯饮料",
+          "source": {
+            "kind": "user_text",
+            "number": 98
+          }
+        },
+        {
+          "id": "flirty-dare-099",
+          "level": "flirty",
+          "type": "dare",
+          "text": "用手指轻轻戳一下对方的脸蛋",
+          "source": {
+            "kind": "user_text",
+            "number": 99
+          }
+        },
+        {
+          "id": "flirty-dare-100",
+          "level": "flirty",
+          "type": "dare",
+          "text": "和你最有好感的人对视5秒，然后说一句“我选你”",
+          "source": {
+            "kind": "user_text",
+            "number": 100
+          }
+        }
+      ]
+    },
+    {
+      "level": "extreme",
+      "type": "truth",
+      "status": "ready",
+      "count": 133,
+      "questions": [
+        {
+          "id": "extreme-truth-001",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经同时对两个人动心过吗？具体到名字或关系。",
+          "source": {
+            "files": [
+              "IMG_2821.png"
+            ],
+            "number": 1
+          }
+        },
+        {
+          "id": "extreme-truth-002",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有在现任身上，叫错过别人的名字？",
+          "source": {
+            "files": [
+              "IMG_2821.png"
+            ],
+            "number": 2
+          }
+        },
+        {
+          "id": "extreme-truth-003",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你做过最主动的性暗示是什么？对方接了吗？",
+          "source": {
+            "files": [
+              "IMG_2821.png"
+            ],
+            "number": 3
+          }
+        },
+        {
+          "id": "extreme-truth-004",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你是否有过“明知道对方很渣，但还是想睡”的经历？",
+          "source": {
+            "files": [
+              "IMG_2821.png"
+            ],
+            "number": 4
+          }
+        },
+        {
+          "id": "extreme-truth-005",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有偷偷保留过前任的私密照片或视频？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 5
+          }
+        },
+        {
+          "id": "extreme-truth-006",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你在恋爱中最不能被触碰的一个底线是什么？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 6
+          }
+        },
+        {
+          "id": "extreme-truth-007",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经因为“性”而选择跟一个人在一起吗？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 7
+          }
+        },
+        {
+          "id": "extreme-truth-008",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有幻想过现任最好的朋友？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 8
+          }
+        },
+        {
+          "id": "extreme-truth-009",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你做过最大胆的公共场所亲密行为是什么？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 9
+          }
+        },
+        {
+          "id": "extreme-truth-010",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经用“爱”去交换过物质吗？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 10
+          }
+        },
+        {
+          "id": "extreme-truth-011",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有故意破坏过别人的一段关系？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 11
+          }
+        },
+        {
+          "id": "extreme-truth-012",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经最希望谁“过得很惨”？原因是什么？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 12
+          }
+        },
+        {
+          "id": "extreme-truth-013",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有装作很喜欢一个人，其实心里很讨厌？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 13
+          }
+        },
+        {
+          "id": "extreme-truth-014",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有偷偷羡慕甚至嫉妒过身边最好的朋友？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 14
+          }
+        },
+        {
+          "id": "extreme-truth-015",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你做过最虚伪的一件事是什么？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 15
+          }
+        },
+        {
+          "id": "extreme-truth-016",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有故意在别人面前贬低过一个人，目的是为了抬高自己？",
+          "source": {
+            "files": [
+              "IMG_2820.png"
+            ],
+            "number": 16
+          }
+        },
+        {
+          "id": "extreme-truth-017",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经因为嫉妒，做过让你事后觉得“我怎么会这样”的事？",
+          "source": {
+            "files": [
+              "IMG_2820.png",
+              "IMG_2822.png"
+            ],
+            "number": 17
+          }
+        },
+        {
+          "id": "extreme-truth-018",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你在朋友圈发过的哪一次“岁月静好”，其实是假的？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 18
+          }
+        },
+        {
+          "id": "extreme-truth-019",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有希望过某个亲戚早一点离开世界？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 19
+          }
+        },
+        {
+          "id": "extreme-truth-020",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你做过最自私的决定是什么？至今没跟人说过。",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 20
+          }
+        },
+        {
+          "id": "extreme-truth-021",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有为了钱跟不喜欢的人在一起过？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 21
+          }
+        },
+        {
+          "id": "extreme-truth-022",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经假装过很喜欢一个人的礼物？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 22
+          }
+        },
+        {
+          "id": "extreme-truth-023",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有利用过别人对你的好感来获得好处？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 23
+          }
+        },
+        {
+          "id": "extreme-truth-024",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你在工作中做过最“不诚实”的事是什么？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 24
+          }
+        },
+        {
+          "id": "extreme-truth-025",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有在关系里长期隐瞒过自己的真实收入或债务？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 25
+          }
+        },
+        {
+          "id": "extreme-truth-026",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你借过钱但不想还的经历有没有？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 26
+          }
+        },
+        {
+          "id": "extreme-truth-027",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有为了利益，故意不告诉别人一个重要信息？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 27
+          }
+        },
+        {
+          "id": "extreme-truth-028",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你在恋爱中说过最大的谎言是什么？",
+          "source": {
+            "files": [
+              "IMG_2822.png"
+            ],
+            "number": 28
+          }
+        },
+        {
+          "id": "extreme-truth-029",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有偷看过别人的手机、聊天记录？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 29
+          }
+        },
+        {
+          "id": "extreme-truth-030",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你最不想让你现任知道你曾经做过哪件事？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 30
+          }
+        },
+        {
+          "id": "extreme-truth-031",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经在深夜联系过一个你根本不该联系的人。是谁？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 31
+          }
+        },
+        {
+          "id": "extreme-truth-032",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有对好朋友的另一半产生过好感？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 32
+          }
+        },
+        {
+          "id": "extreme-truth-033",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你做过最“掉价”的事是什么？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 33
+          }
+        },
+        {
+          "id": "extreme-truth-034",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有在明知对方有对象的情况下撩过对方？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 34
+          }
+        },
+        {
+          "id": "extreme-truth-035",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经在一段关系里，同时跟别人暧昧过吗？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 35
+          }
+        },
+        {
+          "id": "extreme-truth-036",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有在背后说过一个人很重的话，当面却装作很友好？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 36
+          }
+        },
+        {
+          "id": "extreme-truth-037",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经因为自尊心，假装不在乎一段非常重要的关系？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 37
+          }
+        },
+        {
+          "id": "extreme-truth-038",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有对自己最好的朋友撒过谎？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 38
+          }
+        },
+        {
+          "id": "extreme-truth-039",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你做过最见不得光的一件事是什么？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 39
+          }
+        },
+        {
+          "id": "extreme-truth-040",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有想过“如果这个人死了就好了”？",
+          "source": {
+            "files": [
+              "IMG_2823.png"
+            ],
+            "number": 40
+          }
+        },
+        {
+          "id": "extreme-truth-041",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经因为害怕孤独而和不爱的人在一起吗？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 41
+          }
+        },
+        {
+          "id": "extreme-truth-042",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有故意让自己喝醉，好去做清醒时不敢做的事？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 42
+          }
+        },
+        {
+          "id": "extreme-truth-043",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经利用过别人的善良吗？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 43
+          }
+        },
+        {
+          "id": "extreme-truth-044",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有在亲密关系里冷暴力过对方？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 44
+          }
+        },
+        {
+          "id": "extreme-truth-045",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你做过最冲动、最危险的决定是什么？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 45
+          }
+        },
+        {
+          "id": "extreme-truth-046",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有过“我知道这么做不对，但我还是做了”的经历？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 46
+          }
+        },
+        {
+          "id": "extreme-truth-047",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经最想摆脱的一个人是谁？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 47
+          }
+        },
+        {
+          "id": "extreme-truth-048",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有对自己的父母或家人长期隐瞒过一件大事？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 48
+          }
+        },
+        {
+          "id": "extreme-truth-049",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你曾经因为贪婪或懒惰，伤害过别人的利益吗？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 49
+          }
+        },
+        {
+          "id": "extreme-truth-050",
+          "level": "extreme",
+          "type": "truth",
+          "text": "如果今天你必须说出一个你从未跟任何人说过的秘密，那会是什么？",
+          "source": {
+            "files": [
+              "IMG_2824.png"
+            ],
+            "number": 50
+          }
+        },
+        {
+          "id": "extreme-truth-051",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你觉得在场谁最有可能是“坏男人/坏女人”类型？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 1
+          }
+        },
+        {
+          "id": "extreme-truth-052",
+          "level": "extreme",
+          "type": "truth",
+          "text": "最近一次亲嘴是什么时候？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 2
+          }
+        },
+        {
+          "id": "extreme-truth-053",
+          "level": "extreme",
+          "type": "truth",
+          "text": "认为朋友重要还是爱情重要",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 3
+          }
+        },
+        {
+          "id": "extreme-truth-054",
+          "level": "extreme",
+          "type": "truth",
+          "text": "喜欢一见钟情还是日久生情？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 4
+          }
+        },
+        {
+          "id": "extreme-truth-055",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你更喜欢“小奶狗”还是“小狼狗”？或者是“大叔型”？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 5
+          }
+        },
+        {
+          "id": "extreme-truth-056",
+          "level": "extreme",
+          "type": "truth",
+          "text": "描述一下你理想中的初吻场景。",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 6
+          }
+        },
+        {
+          "id": "extreme-truth-057",
+          "level": "extreme",
+          "type": "truth",
+          "text": "在手机上翻出你最近一张自拍，并解释当时为什么想拍下来。",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 7
+          }
+        },
+        {
+          "id": "extreme-truth-058",
+          "level": "extreme",
+          "type": "truth",
+          "text": "说一个你偷偷迷恋过但没告诉过别人的明星或公众人物。",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 8
+          }
+        },
+        {
+          "id": "extreme-truth-059",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你第一次对异性/同性产生心动感觉是什么时候？因为什么事？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 9
+          }
+        },
+        {
+          "id": "extreme-truth-060",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你认为自己最像哪种动物？为什么？（这通常能反映性格和亲密风格）",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 10
+          }
+        },
+        {
+          "id": "extreme-truth-061",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你有没有曾经对朋友产生过超越友谊的感觉？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 11
+          }
+        },
+        {
+          "id": "extreme-truth-062",
+          "level": "extreme",
+          "type": "truth",
+          "text": "在座的人中，你最好奇谁的身材？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg"
+            ],
+            "number": 12
+          }
+        },
+        {
+          "id": "extreme-truth-063",
+          "level": "extreme",
+          "type": "truth",
+          "text": "如果我突然说“我们以后只跟对方喝酒”，你会立刻答应吗？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg",
+              "IMG_2831.jpeg"
+            ],
+            "number": 13
+          }
+        },
+        {
+          "id": "extreme-truth-064",
+          "level": "extreme",
+          "type": "truth",
+          "text": "说一个你从未告诉别人的小癖好。",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg",
+              "IMG_2831.jpeg"
+            ],
+            "number": 14
+          }
+        },
+        {
+          "id": "extreme-truth-065",
+          "level": "extreme",
+          "type": "truth",
+          "text": "如果下次喝酒我问“要不要谈恋爱”，你会怎么回答？",
+          "source": {
+            "files": [
+              "IMG_2826.jpeg",
+              "IMG_2831.jpeg"
+            ],
+            "number": 15
+          }
+        },
+        {
+          "id": "extreme-truth-066",
+          "level": "extreme",
+          "type": "truth",
+          "text": "描述一下你经历过或幻想中最浪漫的一次约会。",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 16
+          }
+        },
+        {
+          "id": "extreme-truth-067",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你手机里最私密的一张照片是什么？（可以不展示，只描述）",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 17
+          }
+        },
+        {
+          "id": "extreme-truth-068",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你第一次见我喝酒时，心里偷偷想“这个人我要拿下”了吗？",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 18
+          }
+        },
+        {
+          "id": "extreme-truth-069",
+          "level": "extreme",
+          "type": "truth",
+          "text": "说一个你希望伴侣在亲密关系中具备，但从未说出口的“技能”。",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 19
+          }
+        },
+        {
+          "id": "extreme-truth-070",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你最喜欢的“前戏”是什么？",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 20
+          }
+        },
+        {
+          "id": "extreme-truth-071",
+          "level": "extreme",
+          "type": "truth",
+          "text": "如果今晚你必须和在座的一个人接吻，你会选谁？",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 21
+          }
+        },
+        {
+          "id": "extreme-truth-072",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你接受婚前性行为吗？你的底线在哪里？",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 22
+          }
+        },
+        {
+          "id": "extreme-truth-073",
+          "level": "extreme",
+          "type": "truth",
+          "text": "如果我醉了靠在你肩上，你会偷偷摸我的头发吗？",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 23
+          }
+        },
+        {
+          "id": "extreme-truth-074",
+          "level": "extreme",
+          "type": "truth",
+          "text": "你认为自己最大的性魅力是什么？",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 24
+          }
+        },
+        {
+          "id": "extreme-truth-075",
+          "level": "extreme",
+          "type": "truth",
+          "text": "说一件在亲密关系中你想尝试但不敢提出的“大冒险”。",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 25
+          }
+        },
+        {
+          "id": "extreme-truth-076",
+          "level": "extreme",
+          "type": "truth",
+          "text": "用一句话，让你右边的人脸红。",
+          "source": {
+            "files": [
+              "IMG_2831.jpeg"
+            ],
+            "number": 26
+          }
+        },
+        {
+          "id": "extreme-truth-077",
+          "level": "extreme",
+          "type": "truth",
+          "text": "有没有同时和两个人暧昧聊天？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 1
+          }
+        },
+        {
+          "id": "extreme-truth-078",
+          "level": "extreme",
+          "type": "truth",
+          "text": "曾隐瞒恋爱史的真实数量？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 2
+          }
+        },
+        {
+          "id": "extreme-truth-079",
+          "level": "extreme",
+          "type": "truth",
+          "text": "分手之后偷偷窥探前任日常？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 4
+          }
+        },
+        {
+          "id": "extreme-truth-080",
+          "level": "extreme",
+          "type": "truth",
+          "text": "被表白后吊着对方不拒绝也不答应？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 5
+          }
+        },
+        {
+          "id": "extreme-truth-081",
+          "level": "extreme",
+          "type": "truth",
+          "text": "无缝衔接过上一段感情？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 7
+          }
+        },
+        {
+          "id": "extreme-truth-082",
+          "level": "extreme",
+          "type": "truth",
+          "text": "有过网恋奔现后悔的经历？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 8
+          }
+        },
+        {
+          "id": "extreme-truth-083",
+          "level": "extreme",
+          "type": "truth",
+          "text": "曾经为了气前任找临时对象？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 9
+          }
+        },
+        {
+          "id": "extreme-truth-084",
+          "level": "extreme",
+          "type": "truth",
+          "text": "暗恋过现场在座的人？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 10
+          }
+        },
+        {
+          "id": "extreme-truth-085",
+          "level": "extreme",
+          "type": "truth",
+          "text": "收到过匿名暧昧消息？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 11
+          }
+        },
+        {
+          "id": "extreme-truth-086",
+          "level": "extreme",
+          "type": "truth",
+          "text": "恋爱里偷偷和异性单独吃饭？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 12
+          }
+        },
+        {
+          "id": "extreme-truth-087",
+          "level": "extreme",
+          "type": "truth",
+          "text": "用小号关注前任所有社交账号？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 13
+          }
+        },
+        {
+          "id": "extreme-truth-088",
+          "level": "extreme",
+          "type": "truth",
+          "text": "因为新鲜感背叛过好感边界？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 14
+          }
+        },
+        {
+          "id": "extreme-truth-089",
+          "level": "extreme",
+          "type": "truth",
+          "text": "吵架时故意说狠话伤害伴侣？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 15
+          }
+        },
+        {
+          "id": "extreme-truth-090",
+          "level": "extreme",
+          "type": "truth",
+          "text": "心里还放不下某一任前任？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 16
+          }
+        },
+        {
+          "id": "extreme-truth-091",
+          "level": "extreme",
+          "type": "truth",
+          "text": "假意接受礼物实则无意发展？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 17
+          }
+        },
+        {
+          "id": "extreme-truth-092",
+          "level": "extreme",
+          "type": "truth",
+          "text": "相亲隐瞒自身真实条件？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 18
+          }
+        },
+        {
+          "id": "extreme-truth-093",
+          "level": "extreme",
+          "type": "truth",
+          "text": "喝醉之后给心动的人发消息？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 19
+          }
+        },
+        {
+          "id": "extreme-truth-094",
+          "level": "extreme",
+          "type": "truth",
+          "text": "曾因为金钱动摇一段感情？",
+          "source": {
+            "files": [
+              "IMG_2827.jpeg"
+            ],
+            "number": 20
+          }
+        },
+        {
+          "id": "extreme-truth-095",
+          "level": "extreme",
+          "type": "truth",
+          "text": "装单身去参加联谊活动？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 1
+          }
+        },
+        {
+          "id": "extreme-truth-096",
+          "level": "extreme",
+          "type": "truth",
+          "text": "删掉过和前任的全部合照？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 2
+          }
+        },
+        {
+          "id": "extreme-truth-097",
+          "level": "extreme",
+          "type": "truth",
+          "text": "暗恋持续超过一年没表白？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 3
+          }
+        },
+        {
+          "id": "extreme-truth-098",
+          "level": "extreme",
+          "type": "truth",
+          "text": "被人暗恋但刻意装傻不知情？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 4
+          }
+        },
+        {
+          "id": "extreme-truth-099",
+          "level": "extreme",
+          "type": "truth",
+          "text": "为了谈恋爱改变自身原本性格？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 5
+          }
+        },
+        {
+          "id": "extreme-truth-100",
+          "level": "extreme",
+          "type": "truth",
+          "text": "网购过不方便当众展示的物品？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 6
+          }
+        },
+        {
+          "id": "extreme-truth-101",
+          "level": "extreme",
+          "type": "truth",
+          "text": "有裸睡的日常习惯？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 7
+          }
+        },
+        {
+          "id": "extreme-truth-102",
+          "level": "extreme",
+          "type": "truth",
+          "text": "朋友圈分组屏蔽过亲友？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 9
+          }
+        },
+        {
+          "id": "extreme-truth-103",
+          "level": "extreme",
+          "type": "truth",
+          "text": "借完钱财刻意躲避债主？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 10
+          }
+        },
+        {
+          "id": "extreme-truth-104",
+          "level": "extreme",
+          "type": "truth",
+          "text": "未经允许用过别人私人物品？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 11
+          }
+        },
+        {
+          "id": "extreme-truth-105",
+          "level": "extreme",
+          "type": "truth",
+          "text": "当面夸好物，转头疯狂吐槽？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 12
+          }
+        },
+        {
+          "id": "extreme-truth-106",
+          "level": "extreme",
+          "type": "truth",
+          "text": "编造借口请假出门玩乐？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 13
+          }
+        },
+        {
+          "id": "extreme-truth-107",
+          "level": "extreme",
+          "type": "truth",
+          "text": "藏私房钱不告知身边伴侣？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 14
+          }
+        },
+        {
+          "id": "extreme-truth-108",
+          "level": "extreme",
+          "type": "truth",
+          "text": "洗澡时做出过奇怪举动？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 15
+          }
+        },
+        {
+          "id": "extreme-truth-109",
+          "level": "extreme",
+          "type": "truth",
+          "text": "保存过别人的私密照片？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 16
+          }
+        },
+        {
+          "id": "extreme-truth-110",
+          "level": "extreme",
+          "type": "truth",
+          "text": "睡觉会不自觉说梦话泄密？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 17
+          }
+        },
+        {
+          "id": "extreme-truth-111",
+          "level": "extreme",
+          "type": "truth",
+          "text": "扔掉过别人赠送的不喜欢礼物？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 18
+          }
+        },
+        {
+          "id": "extreme-truth-112",
+          "level": "extreme",
+          "type": "truth",
+          "text": "偷偷蹭吃蹭喝假装顺路？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 19
+          }
+        },
+        {
+          "id": "extreme-truth-113",
+          "level": "extreme",
+          "type": "truth",
+          "text": "熬夜躲被窝刷猎奇内容？",
+          "source": {
+            "files": [
+              "IMG_2828.jpeg"
+            ],
+            "number": 20
+          }
+        },
+        {
+          "id": "extreme-truth-114",
+          "level": "extreme",
+          "type": "truth",
+          "text": "为偷懒编造生病谎言？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 1
+          }
+        },
+        {
+          "id": "extreme-truth-115",
+          "level": "extreme",
+          "type": "truth",
+          "text": "偷偷藏零食避开家人朋友？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 2
+          }
+        },
+        {
+          "id": "extreme-truth-116",
+          "level": "extreme",
+          "type": "truth",
+          "text": "手机里有加密隐藏相册？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 3
+          }
+        },
+        {
+          "id": "extreme-truth-117",
+          "level": "extreme",
+          "type": "truth",
+          "text": "用过假名网上和人聊天？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 4
+          }
+        },
+        {
+          "id": "extreme-truth-118",
+          "level": "extreme",
+          "type": "truth",
+          "text": "公共场所出过大型社死事故？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 5
+          }
+        },
+        {
+          "id": "extreme-truth-119",
+          "level": "extreme",
+          "type": "truth",
+          "text": "嫌弃过好朋友的外形穿搭？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 6
+          }
+        },
+        {
+          "id": "extreme-truth-120",
+          "level": "extreme",
+          "type": "truth",
+          "text": "偷偷拨掉体重秤假装体重没变？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 7
+          }
+        },
+        {
+          "id": "extreme-truth-121",
+          "level": "extreme",
+          "type": "truth",
+          "text": "收到消息故意拖延很久才回复？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 8
+          }
+        },
+        {
+          "id": "extreme-truth-122",
+          "level": "extreme",
+          "type": "truth",
+          "text": "偷偷模仿过别人的穿搭风格？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 9
+          }
+        },
+        {
+          "id": "extreme-truth-123",
+          "level": "extreme",
+          "type": "truth",
+          "text": "在家独处有怪异小癖好？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 10
+          }
+        },
+        {
+          "id": "extreme-truth-124",
+          "level": "extreme",
+          "type": "truth",
+          "text": "私下嫉妒过现场某位朋友？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 11
+          }
+        },
+        {
+          "id": "extreme-truth-125",
+          "level": "extreme",
+          "type": "truth",
+          "text": "表面和好内心记仇很久？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 12
+          }
+        },
+        {
+          "id": "extreme-truth-126",
+          "level": "extreme",
+          "type": "truth",
+          "text": "背地里吐槽过身边熟人？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 13
+          }
+        },
+        {
+          "id": "extreme-truth-127",
+          "level": "extreme",
+          "type": "truth",
+          "text": "羡慕别人的家境想要互换人生？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 14
+          }
+        },
+        {
+          "id": "extreme-truth-128",
+          "level": "extreme",
+          "type": "truth",
+          "text": "曾经为了利益讨好讨厌的人？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 15
+          }
+        },
+        {
+          "id": "extreme-truth-129",
+          "level": "extreme",
+          "type": "truth",
+          "text": "有一个永久不想对外说的秘密？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 16
+          }
+        },
+        {
+          "id": "extreme-truth-130",
+          "level": "extreme",
+          "type": "truth",
+          "text": "看到别人倒霉暗自侥幸？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 17
+          }
+        },
+        {
+          "id": "extreme-truth-131",
+          "level": "extreme",
+          "type": "truth",
+          "text": "内心看不起某个圈子里的熟人？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 18
+          }
+        },
+        {
+          "id": "extreme-truth-132",
+          "level": "extreme",
+          "type": "truth",
+          "text": "后悔当初做过的某个重要选择？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 19
+          }
+        },
+        {
+          "id": "extreme-truth-133",
+          "level": "extreme",
+          "type": "truth",
+          "text": "假装精通不懂的事物撑场面？",
+          "source": {
+            "files": [
+              "IMG_2829.jpeg"
+            ],
+            "number": 20
+          }
+        }
+      ]
+    },
+    {
+      "level": "extreme",
+      "type": "dare",
+      "status": "ready",
+      "count": 102,
+      "questions": [
+        {
+          "id": "extreme-dare-001",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 1
+          },
+          "text": "冰块从领口进、裤腿出"
+        },
+        {
+          "id": "extreme-dare-002",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 2
+          },
+          "text": "张大嘴无声尖叫15秒"
+        },
+        {
+          "id": "extreme-dare-003",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 3
+          },
+          "text": "用脸把额头上的薯片挪到嘴里"
+        },
+        {
+          "id": "extreme-dare-004",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 4
+          },
+          "text": "嘴里含棒棒糖，用舌头把棍子打个结"
+        },
+        {
+          "id": "extreme-dare-005",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 7
+          },
+          "text": "双手背后，只用嘴吃完一碗面"
+        },
+        {
+          "id": "extreme-dare-006",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 8
+          },
+          "text": "用鼻孔吹出纸捻"
+        },
+        {
+          "id": "extreme-dare-007",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 10
+          },
+          "text": "膝盖猜拳三局两胜"
+        },
+        {
+          "id": "extreme-dare-008",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 12
+          },
+          "text": "嘴叼冰块放进别人后颈"
+        },
+        {
+          "id": "extreme-dare-009",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 13
+          },
+          "text": "免提打电话给前任说“我没放下你”"
+        },
+        {
+          "id": "extreme-dare-010",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 14
+          },
+          "text": "敲邻居门说“我是快递，签收一下幸福”"
+        },
+        {
+          "id": "extreme-dare-011",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 15
+          },
+          "text": "用美声唱法把一句脏话吼出来"
+        },
+        {
+          "id": "extreme-dare-012",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 16
+          },
+          "text": "学发情的猫叫，直到有人跟你学"
+        },
+        {
+          "id": "extreme-dare-013",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 17
+          },
+          "text": "公主抱最轻的人做10个深蹲"
+        },
+        {
+          "id": "extreme-dare-014",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 18
+          },
+          "text": "用垃圾袋走猫步摆三个pose"
+        },
+        {
+          "id": "extreme-dare-015",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 19
+          },
+          "text": "抱着垃圾桶深情朗诵一分钟"
+        },
+        {
+          "id": "extreme-dare-016",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 20
+          },
+          "text": "微信头像换成“我是猪”到游戏结束"
+        },
+        {
+          "id": "extreme-dare-017",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2832.jpeg"
+            ],
+            "number": 21
+          },
+          "text": "别人翻你相册，每张夸三个词，自己不许笑"
+        },
+        {
+          "id": "extreme-dare-018",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 1
+          },
+          "text": "喂在座一位异性吃东西"
+        },
+        {
+          "id": "extreme-dare-019",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 2
+          },
+          "text": "给在座一位异性按摩1分钟"
+        },
+        {
+          "id": "extreme-dare-020",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 3
+          },
+          "text": "摆3次芙蓉姐姐的S形"
+        },
+        {
+          "id": "extreme-dare-021",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 4
+          },
+          "text": "摆出三个最性感／最man的pose，其他人拍照留念"
+        },
+        {
+          "id": "extreme-dare-022",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 5
+          },
+          "text": "call手机里任意一人，说出“我爱你”"
+        },
+        {
+          "id": "extreme-dare-023",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 6
+          },
+          "text": "给周边一位陌生人送出飞吻"
+        },
+        {
+          "id": "extreme-dare-024",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 7
+          },
+          "text": "由其他玩家指定5种动物，你来模仿叫声"
+        },
+        {
+          "id": "extreme-dare-025",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 8
+          },
+          "text": "模仿脑白金广告边唱边跳"
+        },
+        {
+          "id": "extreme-dare-026",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 9
+          },
+          "text": "被其他玩家在脸上画5笔并拍照"
+        },
+        {
+          "id": "extreme-dare-027",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 10
+          },
+          "text": "从现在开始到下一轮，都要用撒娇的语气说话"
+        },
+        {
+          "id": "extreme-dare-028",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 11
+          },
+          "text": "嘴里含着冰块和现场一位异性表白"
+        },
+        {
+          "id": "extreme-dare-029",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 12
+          },
+          "text": "随便抓一个人说：你相信光吗？"
+        },
+        {
+          "id": "extreme-dare-030",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 13
+          },
+          "text": "给喜欢的人发一张你觉得可爱自拍照"
+        },
+        {
+          "id": "extreme-dare-031",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 14
+          },
+          "text": "用纸巾卷成阿拉丁的样子：直到活动结束"
+        },
+        {
+          "id": "extreme-dare-032",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 15
+          },
+          "text": "删除手机上任意一个联系人"
+        },
+        {
+          "id": "extreme-dare-033",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 16
+          },
+          "text": "壁咚在座一位异性"
+        },
+        {
+          "id": "extreme-dare-034",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 17
+          },
+          "text": "与一位异性十指相扣，对视十秒"
+        },
+        {
+          "id": "extreme-dare-035",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 18
+          },
+          "text": "唱青藏高原最后一句"
+        },
+        {
+          "id": "extreme-dare-036",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 19
+          },
+          "text": "被左右两边的人同时挠痒痒"
+        },
+        {
+          "id": "extreme-dare-037",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2833.jpeg"
+            ],
+            "number": 20
+          },
+          "text": "嘴上涂厚厚的口红，做5个俯卧撑，在纸巾上留下5个唇印"
+        },
+        {
+          "id": "extreme-dare-038",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 21
+          },
+          "text": "查看隐藏相册"
+        },
+        {
+          "id": "extreme-dare-039",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 22
+          },
+          "text": "请用自己的双手为一位异性做眼保健操"
+        },
+        {
+          "id": "extreme-dare-040",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 23
+          },
+          "text": "背着一位异性绕场一周"
+        },
+        {
+          "id": "extreme-dare-041",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 24
+          },
+          "text": "查看浏览器搜索记录"
+        },
+        {
+          "id": "extreme-dare-042",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 25
+          },
+          "text": "蹲在凳子上作便秘的样子，然后边吃东西，20秒"
+        },
+        {
+          "id": "extreme-dare-043",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 26
+          },
+          "text": "和在场一位异性喝交杯酒"
+        },
+        {
+          "id": "extreme-dare-044",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 27
+          },
+          "text": "让右边的人说出一个东西，你用肢体语言表现出来"
+        },
+        {
+          "id": "extreme-dare-045",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 28
+          },
+          "text": "给除场外最好的朋友发信息说我喜欢你很久了想和你聊聊天，直到他回复"
+        },
+        {
+          "id": "extreme-dare-046",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 29
+          },
+          "text": "抱一位异性直到下一轮真心话大冒险结束"
+        },
+        {
+          "id": "extreme-dare-047",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 30
+          },
+          "text": "摆一个最油的姿势让对面的人给录视频或拍照"
+        },
+        {
+          "id": "extreme-dare-048",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 31
+          },
+          "text": "让一位异性给你涂口红并合影"
+        },
+        {
+          "id": "extreme-dare-049",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 32
+          },
+          "text": "把相册顺数第九张照片分享给大家"
+        },
+        {
+          "id": "extreme-dare-050",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 33
+          },
+          "text": "可爱地唱一首儿歌（必须得公认可爱才行）"
+        },
+        {
+          "id": "extreme-dare-051",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 34
+          },
+          "text": "让任何异性看完你相册里的照片，然后向你提一个问题"
+        },
+        {
+          "id": "extreme-dare-052",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 35
+          },
+          "text": "对异性服务员说“请给我你的微笑，我要打包”"
+        },
+        {
+          "id": "extreme-dare-053",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 36
+          },
+          "text": "用新闻联播的腔调进行一分钟我介绍。"
+        },
+        {
+          "id": "extreme-dare-054",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 37
+          },
+          "text": "最近想过最邪恶的念头是什么？"
+        },
+        {
+          "id": "extreme-dare-055",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 38
+          },
+          "text": "在手上画一个手表，并向隔壁桌询问手上的手表是几点。"
+        },
+        {
+          "id": "extreme-dare-056",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 39
+          },
+          "text": "绕着屋子跑一圈，并大喊我再也不想尿床了。"
+        },
+        {
+          "id": "extreme-dare-057",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2834.jpeg"
+            ],
+            "number": 40
+          },
+          "text": "去隔壁桌的异性说我没穿内裤你能借我吗？"
+        },
+        {
+          "id": "extreme-dare-058",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 41
+          },
+          "text": "站起来大喊，我好寂寞，赐给我一个男人吧！"
+        },
+        {
+          "id": "extreme-dare-059",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 42
+          },
+          "text": "对隔壁桌的人说，你牙上有菜。"
+        },
+        {
+          "id": "extreme-dare-060",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 43
+          },
+          "text": "给隔壁桌唱一段跑调的歌。"
+        },
+        {
+          "id": "extreme-dare-061",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 44
+          },
+          "text": "吻左右两边第二位异性的鼻子。"
+        },
+        {
+          "id": "extreme-dare-062",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 45
+          },
+          "text": "解锁自己的手机并给微信列表第四个人发一张丑照。"
+        },
+        {
+          "id": "extreme-dare-063",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 47
+          },
+          "text": "去别桌打开手电筒，说“我是你们的灯神，我来照亮你们啦！”"
+        },
+        {
+          "id": "extreme-dare-064",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 48
+          },
+          "text": "送隔壁桌一瓶酒，一分钟后再去要回来。"
+        },
+        {
+          "id": "extreme-dare-065",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 49
+          },
+          "text": "站在厕所门前说欢迎光临并鞠躬。"
+        },
+        {
+          "id": "extreme-dare-066",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 50
+          },
+          "text": "和在场的异性对视1分钟。"
+        },
+        {
+          "id": "extreme-dare-067",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 51
+          },
+          "text": "当着大家的面闻自己的臭袜子。"
+        },
+        {
+          "id": "extreme-dare-068",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 52
+          },
+          "text": "打电话给任意一个朋友，说“把我删了。”"
+        },
+        {
+          "id": "extreme-dare-069",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 53
+          },
+          "text": "向隔壁桌要微信，别人同意后说“加你了拒绝一下。”"
+        },
+        {
+          "id": "extreme-dare-070",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 54
+          },
+          "text": "站起来和在场的异性说 大爷过来玩呀～"
+        },
+        {
+          "id": "extreme-dare-071",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 55
+          },
+          "text": "给爸爸打电话唱世上只有妈妈好。"
+        },
+        {
+          "id": "extreme-dare-072",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 56
+          },
+          "text": "去隔壁桌敬酒，说“在座的各位都是我爸爸。”"
+        },
+        {
+          "id": "extreme-dare-073",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 57
+          },
+          "text": "在厕所门口给别人递纸巾并说您辛苦了。"
+        },
+        {
+          "id": "extreme-dare-074",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 58
+          },
+          "text": "拿着包顶在头上青蛙跳10个。"
+        },
+        {
+          "id": "extreme-dare-075",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 59
+          },
+          "text": "对着垃圾桶笑。"
+        },
+        {
+          "id": "extreme-dare-076",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2835.jpeg"
+            ],
+            "number": 60
+          },
+          "text": "做一套广播体操。"
+        },
+        {
+          "id": "extreme-dare-077",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 62
+          },
+          "text": "发朋友圈说“我再也不想尿床了。”"
+        },
+        {
+          "id": "extreme-dare-078",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 63
+          },
+          "text": "绕着店里跑一圈。"
+        },
+        {
+          "id": "extreme-dare-079",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 64
+          },
+          "text": "用头写我是一个笨蛋。"
+        },
+        {
+          "id": "extreme-dare-080",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 65
+          },
+          "text": "站起来大喊，下雨了。"
+        },
+        {
+          "id": "extreme-dare-081",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 66
+          },
+          "text": "说出到目前为止撒过的最大一次慌。"
+        },
+        {
+          "id": "extreme-dare-082",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 67
+          },
+          "text": "打电话给朋友说，我看你不爽很久了。"
+        },
+        {
+          "id": "extreme-dare-083",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 68
+          },
+          "text": "随机拍一位陌生人的肩膀说你长得真好看。"
+        },
+        {
+          "id": "extreme-dare-084",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 69
+          },
+          "text": "拍一张挖鼻孔的照片并发朋友圈问自己美吗？"
+        },
+        {
+          "id": "extreme-dare-085",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 70
+          },
+          "text": "在厕所拿着鞋子大声唱歌。"
+        },
+        {
+          "id": "extreme-dare-086",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 71
+          },
+          "text": "吃下在场的每个人给你夹得菜。"
+        },
+        {
+          "id": "extreme-dare-087",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 72
+          },
+          "text": "说出自己三个小癖好。"
+        },
+        {
+          "id": "extreme-dare-088",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 73
+          },
+          "text": "有感情的背诵一首古诗词。"
+        },
+        {
+          "id": "extreme-dare-089",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 74
+          },
+          "text": "闭眼随机和在场的一位握手，并猜出对方是谁。"
+        },
+        {
+          "id": "extreme-dare-090",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 75
+          },
+          "text": "选一位异性，一边摸着他的脸一边说“你好讨厌哦。”"
+        },
+        {
+          "id": "extreme-dare-091",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 76
+          },
+          "text": "用笔在额头上画一个乌龟直到游戏结束"
+        },
+        {
+          "id": "extreme-dare-092",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2836.jpeg"
+            ],
+            "number": 77
+          },
+          "text": "用手纸当围巾，围脖子上持续一轮游戏"
+        },
+        {
+          "id": "extreme-dare-093",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 79
+          },
+          "text": "去隔壁桌收空瓶子，下次输了再还回去"
+        },
+        {
+          "id": "extreme-dare-094",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 80
+          },
+          "text": "站在凳子上说：朕终于登基了！"
+        },
+        {
+          "id": "extreme-dare-095",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 81
+          },
+          "text": "说自己的内裤是红色的"
+        },
+        {
+          "id": "extreme-dare-096",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 82
+          },
+          "text": "跨个一字马"
+        },
+        {
+          "id": "extreme-dare-097",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 83
+          },
+          "text": "帮一个异性穿衣服。"
+        },
+        {
+          "id": "extreme-dare-098",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 84
+          },
+          "text": "不用手喝饮料"
+        },
+        {
+          "id": "extreme-dare-099",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 85
+          },
+          "text": "用三种方式和椅子吵架"
+        },
+        {
+          "id": "extreme-dare-100",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 86
+          },
+          "text": "门牙涂黑傻笑30秒"
+        },
+        {
+          "id": "extreme-dare-101",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 87
+          },
+          "text": "口罩剪破套眼睛或嘴巴"
+        },
+        {
+          "id": "extreme-dare-102",
+          "level": "extreme",
+          "type": "dare",
+          "source": {
+            "files": [
+              "IMG_2837.jpeg"
+            ],
+            "number": 88
+          },
+          "text": "去其他桌自我征婚介绍两分钟"
+        }
+      ]
+    }
+  ],
+  "contentVersion": "user-bank-2026-09-17-v2",
+  "excludedQuestions": [
+    {
+      "reason": "屏息饮酒挑战，有呛咳、误吸风险。",
+      "source": {
+        "files": [
+          "IMG_2832.jpeg"
+        ],
+        "number": 5
+      }
+    },
+    {
+      "reason": "将酸性食物直接接触眼球，有眼部损伤风险。",
+      "source": {
+        "files": [
+          "IMG_2832.jpeg"
+        ],
+        "number": 6
+      }
+    },
+    {
+      "reason": "以连续饮用三杯酒作为动作失败惩罚，鼓励集中大量饮酒。",
+      "source": {
+        "files": [
+          "IMG_2832.jpeg"
+        ],
+        "number": 9
+      }
+    },
+    {
+      "reason": "让尖锐物贴近眼部，有眼部穿刺伤风险。",
+      "source": {
+        "files": [
+          "IMG_2832.jpeg"
+        ],
+        "number": 11
+      }
+    },
+    {
+      "reason": "要求未经同意触碰陌生人的臀部。",
+      "source": {
+        "files": [
+          "IMG_2836.jpeg"
+        ],
+        "number": 61
+      }
+    }
+  ]
+}
