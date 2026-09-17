@@ -1,0 +1,2 @@
+import {describe,expect,it} from 'vitest';import {promptBank} from './prompts';
+describe('prompt bank',()=>{it('contains six unique sets of 100 complete prompts',()=>{for(const groups of Object.values(promptBank))for(const list of Object.values(groups)){expect(list).toHaveLength(100);expect(new Set(list.map(x=>x.id)).size).toBe(100);expect(new Set(list.map(x=>x.text)).size).toBe(100);expect(list.every(x=>x.text.length>8)).toBe(true)}})});
