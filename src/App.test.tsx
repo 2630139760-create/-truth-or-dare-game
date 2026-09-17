@@ -7,7 +7,7 @@ describe('game setup',()=>{
  it('moves from home through level and player selection',()=>{
   render(<App/>);
   fireEvent.click(screen.getByRole('button',{name:/开始游戏/}));
-  fireEvent.click(screen.getByRole('button',{name:/纯情档/}));
+  fireEvent.click(screen.getByRole('button',{name:/休闲档/}));
   const input=screen.getByLabelText('玩家人数');
   fireEvent.change(input,{target:{value:'6'}});
   fireEvent.click(screen.getByRole('button',{name:/准备好了/}));
