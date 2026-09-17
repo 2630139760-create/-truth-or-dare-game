@@ -1,0 +1,2 @@
+import {describe,expect,it} from 'vitest'; import {indexAt,normalize,targetAngle} from './engine';
+describe('wheel geometry',()=>{it('normalizes angles',()=>{expect(normalize(-10)).toBe(350);expect(normalize(370)).toBe(10)});it('centres one at noon and proceeds clockwise',()=>{expect(indexAt(0,4)).toBe(0);expect(indexAt(91,4)).toBe(1);expect(indexAt(271,4)).toBe(3)});it('maps target centers back to their index',()=>{for(let i=0;i<100;i++)expect(indexAt(targetAngle(i,100),100)).toBe(i)})});
